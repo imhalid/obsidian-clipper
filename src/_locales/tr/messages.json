@@ -1105,5 +1105,38 @@
 				"content": "$1"
 			}
 		}
+	},
+	"thymerStatusConnected": {
+		"message": "Thymer'a bağlı ($1)",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
+	},
+	"thymerStatusOffline": {
+		"message": "Thymer'a ulaşılamıyor. Workspace ve koleksiyon listesi $1 tarihinden.",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
+	},
+	"thymerStatusNever": {
+		"message": "Thymer'a ulaşılamıyor. Thymer uygulamasını açın ve MCP köprüsünü etkinleştirin."
+	},
+	"thymerStatusDescription": {
+		"message": "Workspace ve koleksiyonlar Thymer'ın MCP köprüsünden okunur ve Thymer kapalıyken kullanmak için saklanır."
+	},
+	"thymerNewCollection": {
+		"message": "Yeni koleksiyon: $1",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
+	},
+	"thymerNoCollections": {
+		"message": "Thymer'a bir kez bağlanınca koleksiyonlar burada görünür."
 	}
 }

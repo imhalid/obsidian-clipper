@@ -1105,5 +1105,38 @@
 				"content": "$1"
 			}
 		}
+	},
+	"thymerStatusConnected": {
+		"message": "Connected to Thymer ($1)",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
+	},
+	"thymerStatusOffline": {
+		"message": "Thymer is not reachable. Workspaces and collections are from $1.",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
+	},
+	"thymerStatusNever": {
+		"message": "Thymer is not reachable. Open the Thymer app and turn on its MCP bridge."
+	},
+	"thymerStatusDescription": {
+		"message": "Workspaces and collections are read from Thymer's MCP bridge and kept for when Thymer is closed."
+	},
+	"thymerNewCollection": {
+		"message": "New collection: $1",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
+	},
+	"thymerNoCollections": {
+		"message": "Thymer's collections show up here once Thymer has been reached."
 	}
 }

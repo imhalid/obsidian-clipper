@@ -10,6 +10,7 @@ import { createElementWithClass, createElementWithHTML } from '../utils/dom-util
 import { updatePromptContextVisibility } from './interpreter-settings';
 import { showSettingsSection } from './settings-section-ui';
 import { updatePropertyType } from './property-types-manager';
+import { fillTemplateFields } from '../thymer/fields';
 import { getMessage } from '../utils/i18n';
 import {
 	parse,
@@ -275,6 +276,9 @@ export function showTemplateEditor(template: Template | null): void {
 			vaultSelect.appendChild(option);
 		});
 		vaultSelect.value = editingTemplate.vault || '';
+		if (pathInput) {
+			fillTemplateFields(vaultSelect, pathInput, editingTemplate.vault || '');
+		}
 	}
 
 	updateUrl('templates', editingTemplate.id);

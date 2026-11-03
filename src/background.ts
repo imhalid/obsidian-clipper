@@ -9,6 +9,7 @@ import { incrementStat } from './utils/storage-utils';
 import { hasStoredHighlights } from './utils/url-utils';
 import { initThymerBackground, saveToThymer } from './thymer/background';
 import { ThymerClip } from './thymer/save';
+import { refreshThymerDirectory } from './thymer/directory';
 
 initThymerBackground();
 
@@ -767,6 +768,11 @@ browser.runtime.onMessage.addListener((request: unknown, sender: browser.Runtime
 
 		if (typedRequest.action === "saveToThymer") {
 			saveToThymer((typedRequest as any).clip as ThymerClip).then(sendResponse);
+			return true;
+		}
+
+		if (typedRequest.action === "getThymerDirectory") {
+			refreshThymerDirectory().then(sendResponse);
 			return true;
 		}
 

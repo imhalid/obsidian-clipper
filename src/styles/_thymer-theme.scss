@@ -1,0 +1,78 @@
+// Thymer's look over the clipper's variables (which are Obsidian's): the palettes of
+// Thymer's Dark and Light themes, its teal, its small radii and flat 1px edges.
+// Values are from Thymer's app.css (thymer-dark-sans and thymer-light-sans).
+
+:root,
+.is-macos {
+	--corner-shape: round;
+	--radius-s: 4px;
+	--radius-m: 6px;
+	--radius-l: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		// --color-primary-500, #69c9c5
+		--accent-h: 178;
+		--accent-s: 47%;
+		--accent-l: 60%;
+
+		--color-base-00: #121417;
+		--color-base-05: #17191d;
+		--color-base-10: #1a1c20;
+		--color-base-20: #1a1c20;
+		--color-base-25: #21242a;
+		--color-base-30: #292d33;
+		--color-base-35: #32363d;
+		--color-base-40: #3a3f46;
+		--color-base-50: #555b63;
+		--color-base-60: #7d838b;
+		--color-base-70: #a0a5ac;
+		--color-base-100: #d7dcdd;
+
+		--background-modifier-form-field: #17191d;
+		--background-modifier-hover: rgba(105, 201, 197, .08);
+		--background-modifier-border-focus: rgba(105, 201, 197, .5);
+		--text-on-accent: #0c0e11;
+		--text-selection: rgba(55, 120, 120, .6);
+
+		--interactive-normal: #1a1c20;
+		--interactive-hover: #21242a;
+
+		--input-shadow: inset 0 0 0 1px #3a3f46;
+		--input-shadow-hover: inset 0 0 0 1px #4a5058;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		// --color-primary-700, #479797
+		--accent-h: 180;
+		--accent-s: 36%;
+		--accent-l: 44%;
+
+		--color-base-00: #fcfcfd;
+		--color-base-05: #f9f9fa;
+		--color-base-10: #f7f7f8;
+		--color-base-20: #f5f5f7;
+		--color-base-25: #eeeef0;
+		--color-base-30: #e5e5e9;
+		--color-base-35: #dbdbdf;
+		--color-base-40: #bbbbc3;
+		--color-base-50: #a2a2af;
+		--color-base-60: #787d7c;
+		--color-base-70: #585c5b;
+		--color-base-100: #2f3231;
+
+		--background-modifier-form-field: #ffffff;
+		--background-modifier-hover: rgba(71, 151, 151, .08);
+		--background-modifier-border-focus: rgba(71, 151, 151, .45);
+		--text-on-accent: #ffffff;
+
+		--interactive-normal: #ffffff;
+		--interactive-hover: #f5f5f7;
+
+		--input-shadow: inset 0 0 0 1px #dbdbdf;
+		--input-shadow-hover: inset 0 0 0 1px #bbbbc3;
+	}
+}

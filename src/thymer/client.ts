@@ -31,7 +31,11 @@ export class ThymerClient {
 	private sessionId: string | null = null;
 	private nextId = 1;
 
-	constructor(private baseUrl: string = THYMER_BRIDGE_URL) {}
+	/**
+	 * @param timeoutMs give up on a request after this long, as if Thymer were closed
+	 *   (for quick lookups; saving a long page can take a while, so saves have none)
+	 */
+	constructor(private baseUrl: string = THYMER_BRIDGE_URL, private timeoutMs?: number) {}
 
 	private async post(body: object): Promise<{ status: number; json: RpcResponse | null }> {
 		const headers: Record<string, string> = { 'Content-Type': 'application/json' };
@@ -40,7 +44,12 @@ export class ThymerClient {
 		}
 		let response: Response;
 		try {
-			response = await fetch(`${this.baseUrl}/mcp`, { method: 'POST', headers, body: JSON.stringify(body) });
+			response = await fetch(`${this.baseUrl}/mcp`, {
+				method: 'POST',
+				headers,
+				body: JSON.stringify(body),
+				signal: this.timeoutMs ? AbortSignal.timeout(this.timeoutMs) : undefined,
+			});
 		} catch {
 			throw new ThymerUnreachableError();
 		}

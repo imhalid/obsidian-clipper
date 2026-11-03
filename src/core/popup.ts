@@ -4,6 +4,7 @@ import { incrementStat, addHistoryEntry, getClipHistory } from '../utils/storage
 import { generateFrontmatter } from '../utils/obsidian-note-creator';
 import type { ThymerClip } from '../thymer/save';
 import type { ThymerSaveResponse } from '../thymer/background';
+import { loadThymerDirectory, showThymerStatus, suggestCollections, workspaceNames } from '../thymer/fields';
 import { extractPageContent, initializePageContent } from '../utils/content-extractor';
 import { compileTemplate } from '../utils/template-compiler';
 import { initializeIcons, getPropertyTypeIcon } from '../icons/icons';
@@ -380,6 +381,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 			try {
 				// DOM-dependent initializations
 				updateVaultDropdown(loadedSettings.vaults);
+				applyThymerDirectory(false);
+				document.getElementById('thymer-status')?.addEventListener('click', (event) => {
+					event.preventDefault();
+					applyThymerDirectory(true);
+				});
 				populateTemplateDropdown();
 				setupEventListeners(currentTabId);
 				await initializeUI();
@@ -1082,6 +1088,33 @@ function updateVaultDropdown(vaults: string[]) {
 		lastSelectedVault = vaultDropdown.value;
 		setLocalStorage('lastSelectedVault', lastSelectedVault);
 	});
+}
+
+// Workspaces and collections from Thymer, or the last ones kept while it was closed
+async function applyThymerDirectory(refresh: boolean): Promise<void> {
+	const directory = await loadThymerDirectory(refresh);
+	const status = document.getElementById('thymer-status');
+	if (status) {
+		showThymerStatus(status, directory);
+	}
+	const vaultDropdown = document.getElementById('vault-select') as HTMLSelectElement | null;
+	const pathField = document.getElementById('path-name-field') as HTMLInputElement | null;
+	if (vaultDropdown) {
+		// The template's workspace may only now be among the options
+		const chosen = currentTemplate?.vault || vaultDropdown.value;
+		const names = workspaceNames(directory, loadedSettings.vaults);
+		// A single workspace needs no choosing, unless the settings list workspaces of their own
+		updateVaultDropdown(names.length > 1 || loadedSettings.vaults.length > 0 ? names : []);
+		if (chosen && names.includes(chosen)) {
+			vaultDropdown.value = chosen;
+		}
+	}
+	if (pathField) {
+		suggestCollections(pathField, directory, vaultDropdown?.value || '');
+		if (vaultDropdown) {
+			vaultDropdown.oninput = () => suggestCollections(pathField, directory, vaultDropdown.value);
+		}
+	}
 }
 
 function refreshPopup() {
