@@ -18,10 +18,7 @@
 		"message": "Legg til leverandør"
 	},
 	"addToObsidian": {
-		"message": "Legg til i Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Trykk Enter for å legge til hvelv"
+		"message": "Legg til i Thymer"
 	},
 	"advanced": {
 		"message": "Avansert"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "API-nøkkel mangler"
-	},
-	"apiKeysWarning": {
-		"message": "Ved å bruke en ekstern leverandør godtar du deres vilkår og personvernregler. Tolkningsforespørsler sendes direkte til din valgte leverandør. Obsidian samler ikke inn eller lagrer informasjon om dine forespørsler."
-	},
-	"appendToDaily": {
-		"message": "Legg til i daglig notat, på slutten"
-	},
-	"appendToExisting": {
-		"message": "Legg til i eksisterende notat, på slutten"
 	},
 	"autoRunInterpreter": {
 		"message": "Kjør automatisk"
@@ -96,7 +84,7 @@
 		"message": "Klippoppførsel"
 	},
 	"clipBehaviorDescription": {
-		"message": "Velg hvordan valgt innhold lagres i Obsidian. Setter variabelen $strong_start${{content}}$strong_end$",
+		"message": "Velg hvordan valgt innhold lagres i Thymer. Setter variabelen $strong_start${{content}}$strong_end$",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian har ikke tilgang til utklippstavlen din. Prøv feilsøkingsinstruksjonene her: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Lukk"
-	},
-	"commandOpenClipper": {
-		"message": "Åpne Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Hurtigklipp"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Kopier til utklippstavle"
 	},
-	"createNewNote": {
-		"message": "Opprett nytt notat"
-	},
 	"custom": {
 		"message": "Tilpasset"
-	},
-	"dailyNoteFormat": {
-		"message": "Daglig notatformat (f.eks. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Standard tolkningskontekst"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Dupliser"
 	},
-	"earlyAccessDescription": {
-		"message": "Bruk funksjoner som krever den nyeste $link_start$tidlig tilgang-versjonen$link_end$ av Obsidian. Krever for øyeblikket Obsidian 1.7.2 eller nyere.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Tidlig tilgang-funksjoner"
 	},
@@ -225,7 +185,7 @@
 		"message": "Innebygd"
 	},
 	"enableHighlighterDescription": {
-		"message": "Uthev innhold på nettsider for å lagre i Obsidian"
+		"message": "Uthev innhold på nettsider for å lagre i Thymer"
 	},
 	"enableInterpreter": {
 		"message": "Aktiver tolk"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Eksporter egenskaper"
-	},
-	"exportPropertiesDescription": {
-		"message": "Lagre Web Clipper-egenskaper til en $strong_start$types.json$strong_end$-fil som kan importeres til ditt Obsidian-hvelv eller Web Clipper på andre enheter",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Lagre webinnhold i et privat og varig format som kan nås offline. Den offisielle nettleserutvidelsen for Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Kunne ikke kopiere tekst"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Takk for tilbakemeldingen"
-	},
-	"folder": {
-		"message": "Mappe"
 	},
 	"general": {
 		"message": "Generelt"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importer egenskaper"
 	},
-	"importPropertiesDescription": {
-		"message": "For å importere egenskaper fra Obsidian, finn $strong_1_start$types.json$strong_1_end$-filen i $strong_2_start$.obsidian$strong_2_end$-mappen i hvelvet ditt. Denne mappen er skjult som standard på de fleste operativsystemer.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importer innstillinger"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Eldre modus"
-	},
-	"legacyModeDescription": {
-		"message": "Bruker URI-fangstmetoden som er kompatibel med Obsidian 1.6.7 og eldre. Merk at lengden på fanget innhold er begrenset av nettleseren og operativsystemet. Noen sider kan mislykkes uten feilmelding."
 	},
 	"loadArticle": {
 		"message": "Les artikkel"
@@ -531,27 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Ingen ubrukte egenskaper funnet."
 	},
-	"noteContent": {
-		"message": "Notatinnhold"
-	},
-	"noteContentDescription": {
-		"message": "Tilpass notatets innhold. Bruk variabler for å forhåndsutfylle data fra siden."
-	},
-	"noteLocation": {
-		"message": "Notatplassering"
-	},
-	"noteLocationDescription": {
-		"message": "Mappen eller banen til notatet."
-	},
-	"noteName": {
-		"message": "Notatnavn"
-	},
-	"noteNameFormat": {
-		"message": "Notatnavnformat"
-	},
-	"noteNameFormatDescription": {
-		"message": "Formatet som brukes for å generere notatnavn. Du kan bruke variabler."
-	},
 	"notesAboutPage": {
 		"message": "Noter om denne siden..."
 	},
@@ -585,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Eller lim inn innholdet nedenfor"
 	},
-	"overwriteNote": {
-		"message": "Overskriv notat"
-	},
 	"pageCannotBeClipped": {
 		"message": "Denne siden kan ikke klippes."
 	},
@@ -620,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Legg til i daglig notat, øverst"
-	},
-	"prependToExisting": {
-		"message": "Legg til i et eksisterende notat, øverst"
 	},
 	"preview": {
 		"message": "Forhåndsvisning"
@@ -882,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Fjern alle egenskaper som ikke brukes i noen maler."
 	},
-	"removeVault": {
-		"message": "Fjern hvelv"
-	},
 	"replaceContent": {
 		"message": "Erstatt notatinnhold"
 	},
@@ -975,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Vis sidevariabler"
 	},
-	"silentOpen": {
-		"message": "Lagre notater uten å åpne dem"
-	},
-	"silentOpenDescription": {
-		"message": "Klippede notater vil bli lagret men ikke åpnet i en ny fane. Obsidian vil fortsatt bli brakt til forgrunnen."
-	},
 	"sort": {
 		"message": "Sorter"
 	},
@@ -995,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Å til A"
-	},
-	"specificNoteName": {
-		"message": "Spesifikt notatnavn"
 	},
 	"systemDefault": {
 		"message": "Systemstandard"
@@ -1029,9 +907,6 @@
 	"templateProperties": {
 		"message": "Egenskaper"
 	},
-	"templatePropertiesDescription": {
-		"message": "Egenskaper som vil bli lagt til i starten av det klippede notatet. Bruk variabler for å forhåndsutfylle data fra siden."
-	},
 	"templateTriggers": {
 		"message": "Malutløsere"
 	},
@@ -1055,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Du bruker den nyeste versjonen"
-	},
-	"vault": {
-		"message": "Hvelv"
-	},
-	"vaultDescription": {
-		"message": "Velg standardhvelvet for denne malen. Gå til $link_start$generelle innstillinger$link_end$ for å legge til eller fjerne hvelv.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Hvelv"
-	},
-	"vaultsDescription": {
-		"message": "Som standard lagres klippede notater i det åpne hvelvet. Du kan legge til hvelv her hvis du ønsker muligheten til å lagre i forskjellige hvelv. Hvelvnavnet må samsvare nøyaktig med Obsidian-hvelvnavnet. Trykk $strong_start$enter$strong_end$ for å legge til et hvelv.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versjon"

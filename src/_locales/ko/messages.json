@@ -18,10 +18,7 @@
 		"message": "제공자 추가"
 	},
 	"addToObsidian": {
-		"message": "Obsidian에 추가하기"
-	},
-	"addVaultPlaceholder": {
-		"message": "볼트(보관소)를 추가하려면 엔터를 누르세요."
+		"message": "Thymer에 추가하기"
 	},
 	"advanced": {
 		"message": "고급 설정"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "API 키가 없습니다"
-	},
-	"apiKeysWarning": {
-		"message": "외부 제공자를 사용하면 해당 제공자의 이용 약관 및 개인정보 보호정책에 동의하는 것입니다. 인터프리터 요청은 선택한 제공자에게 직접 전송됩니다. Obsidian은 요청에 대한 데이터를 수집하거나 저장하지 않습니다."
-	},
-	"appendToDaily": {
-		"message": "데일리 노트 맨 아래에 추가"
-	},
-	"appendToExisting": {
-		"message": "기존에 있는 노트 맨 아래에 추가"
 	},
 	"autoRunInterpreter": {
 		"message": "자동 실행"
@@ -96,7 +84,7 @@
 		"message": "클립 동작 방식"
 	},
 	"clipBehaviorDescription": {
-		"message": "하이라이트 표시된 내용이 Obsidian에 저장되는 방식을 선택하세요. $strong_start${{content}}$strong_end$ 변수를 정의합니다.",
+		"message": "하이라이트 표시된 내용이 Thymer에 저장되는 방식을 선택하세요. $strong_start${{content}}$strong_end$ 변수를 정의합니다.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian이 클립보드에 접근할 수 없습니다. 여기의 문제 해결 안내를 시도해 보세요: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "닫기"
-	},
-	"commandOpenClipper": {
-		"message": "Obsidian Clipper 열기"
 	},
 	"commandQuickClip": {
 		"message": "퀵 클립"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "클립보드에 복사하기"
 	},
-	"createNewNote": {
-		"message": "새 노트 만들기"
-	},
 	"custom": {
 		"message": "사용자 정의"
-	},
-	"dailyNoteFormat": {
-		"message": "데일리 노트 형식 (e.g., YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "기본 인터프리터 컨텍스트"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "복제"
 	},
-	"earlyAccessDescription": {
-		"message": "Obsidian의 최신 얼리 액세스 (early access) 버전이 필요한 기능을 사용합니다. 현재 Obsidian 1.7.2 이상이 필요합니다.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "얼리 액세스 기능"
 	},
@@ -225,7 +185,7 @@
 		"message": "임베디드"
 	},
 	"enableHighlighterDescription": {
-		"message": "하이라이트한 웹페이지 내용을 Obsidian에 저장합니다."
+		"message": "하이라이트한 웹페이지 내용을 Thymer에 저장합니다."
 	},
 	"enableInterpreter": {
 		"message": "인터프리터 활성화"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "속성 내보내기"
-	},
-	"exportPropertiesDescription": {
-		"message": "Obsidian Vault 또는 다른 장치의 Web Clipper로 가져올 수 있는 $strong_start$types.json$strong_end$ 파일에 Web Clipper 속성을 저장합니다.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "웹 콘텐츠를 저장하여 오프라인에서도 접근할 수 있는 개인적이고 내구성 있는 형식으로 보관하세요. Obsidian의 공식 브라우저 확장 프로그램입니다."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "텍스트를 복사하지 못했습니다"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "피드백 감사합니다"
-	},
-	"folder": {
-		"message": "Folder"
 	},
 	"general": {
 		"message": "일반"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "속성 들여오기"
 	},
-	"importPropertiesDescription": {
-		"message": "Obsidian에서 속성을 가져오려면 보괏소 내의 $strong_2_start$.obsidian$strong_2_end$ 폴더에서 $strong_1_start$types.json$strong_1_end$ 파일을 찾으세요. 이 폴더는 대부분의 운영 체제에서 기본적으로 숨겨져 있습니다.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "설정 가져오기"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "레거시 모드"
-	},
-	"legacyModeDescription": {
-		"message": "Obsidian 1.6.7 이하 버전과 호환되는 URI 클리핑 방법을 사용합니다. 클립할 수 있는 내용량은 브라우저와 OS에 따라 제한됩니다. 일부 페이지는 오류 없이 실패할 수 있습니다."
 	},
 	"loadArticle": {
 		"message": "문서 읽기"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "사용하지 않는 속성이 발견되지 않았습니다."
 	},
-	"noteContent": {
-		"message": "노트 내용"
-	},
-	"noteContentDescription": {
-		"message": "노트의 내용을 사용자 정의합니다. 변수를 사용하여 페이지의 데이터를 미리 채울 수 있습니다."
-	},
-	"noteLocation": {
-		"message": "노트"
-	},
-	"noteLocationDescription": {
-		"message": "노트의 폴더 또는 파일 경로"
-	},
-	"noteName": {
-		"message": "노트 이름"
-	},
-	"noteNameFormat": {
-		"message": "노트 이름 형식"
-	},
-	"noteNameFormatDescription": {
-		"message": "노트의 파일 이름 형식입니다. {{title}}, {{date}} 및 {{published}}와 같은 변수를 사용하여 페이지의 데이터를 미리 채울 수 있습니다. $link_start$자세히 알아보기$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "이 페이지에 대한 메모..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "아래에 내용을 붙여넣으세요."
 	},
-	"overwriteNote": {
-		"message": "노트 덮어쓰기"
-	},
 	"pageCannotBeClipped": {
 		"message": "이 페이지는 클립할 수 없습니다."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "팝업"
-	},
-	"prependToDaily": {
-		"message": "데일리 노트 맨 위에 추가"
-	},
-	"prependToExisting": {
-		"message": "기존에 있는 노트 맨 위에 추가"
 	},
 	"preview": {
 		"message": "미리보기"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "어떤 템플릿에서도 사용되지 않는 모든 속성을 제거합니다."
 	},
-	"removeVault": {
-		"message": "볼트 제거"
-	},
 	"replaceContent": {
 		"message": "페이지 내용 바꾸기"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "페이지 변수 표시"
 	},
-	"silentOpen": {
-		"message": "클립한 노트 열지 않고 저장"
-	},
-	"silentOpenDescription": {
-		"message": "클립된 노트는 저장되지만 새 탭으로 열리지 않습니다. Obsidian은 포그라운드에서 실행됩니다."
-	},
 	"sort": {
 		"message": "정렬"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z→A"
-	},
-	"specificNoteName": {
-		"message": "특정 노트 이름"
 	},
 	"systemDefault": {
 		"message": "시스템 기본값"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "템플릿 속성"
 	},
-	"templatePropertiesDescription": {
-		"message": "클립된 노트의 맨 위에 추가할 속성입니다. 변수를 사용하여 페이지에서 데이터를 미리 채울 수 있습니다."
-	},
 	"templateTriggers": {
 		"message": "템플릿 트리거"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "최신 버전을 사용 중입니다."
-	},
-	"vault": {
-		"message": "보관소"
-	},
-	"vaultDescription": {
-		"message": "이 템플릿의 기본 보관소를 선택합니다. 보관소를 추가하거나 제거하려면 $link_start$일반 설정$link_end$으로 이동하세요.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "보관소"
-	},
-	"vaultsDescription": {
-		"message": "기본적으로 클립된 노트는 현재 열려 있는 보관소에 저장됩니다. 다른 보관소에 저장하는 옵션을 원하는 경우 여기에 추가할 수 있습니다. 보관소 이름은 Obsidian 볼트 이름과 정확히 일치해야 합니다. 보관소를 추가하려면 $strong_start$엔터$strong_end$를 누르세요.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "버전"

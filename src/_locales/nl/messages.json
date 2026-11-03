@@ -18,10 +18,7 @@
 		"message": "Provider toevoegen"
 	},
 	"addToObsidian": {
-		"message": "Toevoegen aan Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Druk op Enter om een kluis toe te voegen"
+		"message": "Toevoegen aan Thymer"
 	},
 	"advanced": {
 		"message": "Geavanceerd"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Geen API-sleutel"
-	},
-	"apiKeysWarning": {
-		"message": "Door een externe provider te gebruiken ga je akkoord met hun voorwaarden en privacybeleid. Interpreter-verzoeken worden direct naar de provider van jouw keuze gestuurd. Obsidian verzamelt of bewaart geen gegevens over je verzoeken."
-	},
-	"appendToDaily": {
-		"message": "Toevoegen aan dagelijkse notitie, onderaan"
-	},
-	"appendToExisting": {
-		"message": "Toevoegen aan bestaande notitie, onderaan"
 	},
 	"autoRunInterpreter": {
 		"message": "Automatisch uitvoeren"
@@ -96,7 +84,7 @@
 		"message": "Clip-gedrag"
 	},
 	"clipBehaviorDescription": {
-		"message": "Kies hoe gemarkeerde inhoud wordt opgeslagen in Obsidian. Definieert de $strong_start${{content}}$strong_end$ variabele.",
+		"message": "Kies hoe gemarkeerde inhoud wordt opgeslagen in Thymer. Definieert de $strong_start${{content}}$strong_end$ variabele.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian heeft geen toegang tot je klembord. Probeer de instructies voor probleemoplossing hier: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Sluiten"
-	},
-	"commandOpenClipper": {
-		"message": "Open Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Snel knippen"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Kopiëren naar klembord"
 	},
-	"createNewNote": {
-		"message": "Nieuwe notitie maken"
-	},
 	"custom": {
 		"message": "Aangepast"
-	},
-	"dailyNoteFormat": {
-		"message": "Dagelijkse notitie formaat (bijv. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Standaard interpreter context"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Dupliceren"
 	},
-	"earlyAccessDescription": {
-		"message": "Gebruik functies die de nieuwste $link_start$early access versie$link_end$ van Obsidian vereisen. Momenteel is Obsidian 1.7.2 of hoger vereist.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Early access functies"
 	},
@@ -225,7 +185,7 @@
 		"message": "Ingesloten"
 	},
 	"enableHighlighterDescription": {
-		"message": "Markeer inhoud op webpagina's die je kunt opslaan in Obsidian."
+		"message": "Markeer inhoud op webpagina's die je kunt opslaan in Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Interpreter inschakelen"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Eigenschappen exporteren"
-	},
-	"exportPropertiesDescription": {
-		"message": "Sla Web Clipper eigenschappen op in een $strong_start$types.json$strong_end$ bestand dat kan worden geïmporteerd in je Obsidian kluis of in Web Clipper op andere apparaten.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Sla webinhoud op in een privé en duurzaam formaat dat je offline kunt bekijken. De officiële browserextensie voor Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Tekst kopiëren mislukt"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Bedankt voor uw feedback"
-	},
-	"folder": {
-		"message": "Map"
 	},
 	"general": {
 		"message": "Algemeen"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Eigenschappen importeren"
 	},
-	"importPropertiesDescription": {
-		"message": "Om je eigenschappen uit Obsidian te importeren, zoek het $strong_1_start$types.json$strong_1_end$ bestand in de $strong_2_start$.obsidian$strong_2_end$ map in je kluis. Deze map is standaard verborgen op de meeste besturingssystemen.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Instellingen importeren"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Legacy-modus"
-	},
-	"legacyModeDescription": {
-		"message": "Gebruikt de URI-clipmethode die compatibel is met Obsidian 1.6.7 of eerder. De lengte van de inhoud die je kunt knippen wordt beperkt door je browser en besturingssysteem. Sommige pagina's kunnen zonder foutmelding mislukken."
 	},
 	"loadArticle": {
 		"message": "Artikel lezen"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Geen ongebruikte eigenschappen gevonden."
 	},
-	"noteContent": {
-		"message": "Notitie-inhoud"
-	},
-	"noteContentDescription": {
-		"message": "Pas de inhoud van de notitie aan. Gebruik variabelen om gegevens van de pagina vooraf in te vullen."
-	},
-	"noteLocation": {
-		"message": "Notitielocatie"
-	},
-	"noteLocationDescription": {
-		"message": "De map of het pad van de notitie."
-	},
-	"noteName": {
-		"message": "Notitienaam"
-	},
-	"noteNameFormat": {
-		"message": "Notitienaam"
-	},
-	"noteNameFormatDescription": {
-		"message": "Formaat voor de bestandsnaam van de notitie. Je kunt variabelen zoals {{title}}, {{date}} en {{published}} gebruiken om gegevens van de pagina vooraf in te vullen. $link_start$Meer informatie$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Notities over deze pagina..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Of plak inhoud hieronder"
 	},
-	"overwriteNote": {
-		"message": "Overschrijf notitie"
-	},
 	"pageCannotBeClipped": {
 		"message": "Deze pagina kan niet worden geknipt."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Pop-up"
-	},
-	"prependToDaily": {
-		"message": "Toevoegen aan dagelijkse notitie, bovenaan"
-	},
-	"prependToExisting": {
-		"message": "Toevoegen aan bestaande notitie, bovenaan"
 	},
 	"preview": {
 		"message": "Voorbeeld"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Verwijder alle eigenschappen die in geen enkel sjabloon worden gebruikt."
 	},
-	"removeVault": {
-		"message": "Kluis verwijderen"
-	},
 	"replaceContent": {
 		"message": "Pagina-inhoud vervangen"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Toon paginavariabelen"
 	},
-	"silentOpen": {
-		"message": "Geknipte notitie opslaan zonder te openen"
-	},
-	"silentOpenDescription": {
-		"message": "Geknipte notities worden opgeslagen maar niet geopend in een nieuw tabblad. Obsidian wordt nog steeds naar de voorgrond gebracht."
-	},
 	"sort": {
 		"message": "Sorteren"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z tot A"
-	},
-	"specificNoteName": {
-		"message": "Specifieke notitienaam"
 	},
 	"systemDefault": {
 		"message": "Systeem"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Eigenschappen"
 	},
-	"templatePropertiesDescription": {
-		"message": "Eigenschappen om toe te voegen aan de bovenkant van de geknipte notitie. Gebruik variabelen om gegevens van de pagina vooraf in te vullen."
-	},
 	"templateTriggers": {
 		"message": "Sjabloontriggers"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Je gebruikt de nieuwste versie."
-	},
-	"vault": {
-		"message": "Kluis"
-	},
-	"vaultDescription": {
-		"message": "Selecteer de standaard kluis voor dit sjabloon. Ga naar $link_start$algemene instellingen$link_end$ om kluizen toe te voegen of te verwijderen.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Kluizen"
-	},
-	"vaultsDescription": {
-		"message": "Standaard worden geknipte notities opgeslagen in de momenteel geopende kluis. Je kunt hier kluizen toevoegen als je de optie wilt hebben om in verschillende kluizen op te slaan. Kluisnamen moeten exact overeenkomen met de naam van de Obsidian-kluis. Druk op $strong_start$enter$strong_end$ om een kluis toe te voegen.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versie"

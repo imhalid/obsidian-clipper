@@ -1,9 +1,9 @@
 {
 	"manifest_version": 3,
-	"name": "Obsidian Web Clipper",
-	"homepage_url": "https://obsidian.md/",
+	"name": "Thymer Web Clipper",
+	"homepage_url": "https://github.com/imhalid/obsidian-clipper/tree/thymer",
 	"version": "1.7.1",
-	"description": "Save content from the web to Obsidian, in a private and durable format you can always access offline.",
+	"description": "Save and highlight web pages in Thymer. An unofficial web clipper for Thymer, based on Obsidian Web Clipper.",
 	"permissions": [
 		"alarms",
 		"activeTab",
@@ -59,7 +59,7 @@
 				"default": "Ctrl+Shift+O",
 				"mac": "Command+Shift+O"
 			},
-			"description": "Open Obsidian Clipper"
+			"description": "Open Thymer Web Clipper"
 		},
 		"quick_clip": {
 			"suggested_key": {

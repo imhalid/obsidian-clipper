@@ -18,10 +18,7 @@
 		"message": "Magdagdag ng provider"
 	},
 	"addToObsidian": {
-		"message": "Idagdag sa Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Pindutin ang Enter para magdagdag ng vault"
+		"message": "Idagdag sa Thymer"
 	},
 	"advanced": {
 		"message": "Advanced"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Nawawala ang API key"
-	},
-	"apiKeysWarning": {
-		"message": "Sa paggamit ng external provider, tinatanggap mo ang kanilang mga tuntunin at patakaran sa privacy. Ang mga kahilingan sa interpreter ay direktang ipinapadala sa iyong napiling provider. Hindi nangongolekta o nag-iimbak ang Obsidian ng impormasyon tungkol sa iyong mga kahilingan."
-	},
-	"appendToDaily": {
-		"message": "Idagdag sa daily note, sa dulo"
-	},
-	"appendToExisting": {
-		"message": "Idagdag sa umiiral na note, sa dulo"
 	},
 	"autoRunInterpreter": {
 		"message": "Awtomatikong patakbuhin"
@@ -96,7 +84,7 @@
 		"message": "Pag-uugali ng pag-clip"
 	},
 	"clipBehaviorDescription": {
-		"message": "Piliin kung paano i-save ang napiling content sa Obsidian. Itinatakda ang variable na $strong_start${{content}}$strong_end$",
+		"message": "Piliin kung paano i-save ang napiling content sa Thymer. Itinatakda ang variable na $strong_start${{content}}$strong_end$",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Hindi ma-access ng Obsidian ang iyong clipboard. Subukan ang mga tagubilin sa pag-troubleshoot dito: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Isara"
-	},
-	"commandOpenClipper": {
-		"message": "Buksan ang Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Quick clip"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Kopyahin sa clipboard"
 	},
-	"createNewNote": {
-		"message": "Gumawa ng bagong note"
-	},
 	"custom": {
 		"message": "Custom"
-	},
-	"dailyNoteFormat": {
-		"message": "Format ng daily note (hal. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Default na konteksto ng interpreter"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Kopyahin"
 	},
-	"earlyAccessDescription": {
-		"message": "Gamitin ang mga feature na nangangailangan ng pinakabagong $link_start$early access version$link_end$ ng Obsidian. Kasalukuyang kailangan ang Obsidian 1.7.2 o mas bago.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Mga early access na feature"
 	},
@@ -225,7 +185,7 @@
 		"message": "Naka-embed"
 	},
 	"enableHighlighterDescription": {
-		"message": "Mag-highlight ng content sa mga webpage para i-save sa Obsidian"
+		"message": "Mag-highlight ng content sa mga webpage para i-save sa Thymer"
 	},
 	"enableInterpreter": {
 		"message": "I-enable ang interpreter"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "I-export ang mga property"
-	},
-	"exportPropertiesDescription": {
-		"message": "I-save ang mga Web Clipper property sa $strong_start$types.json$strong_end$ file, na maaaring i-import sa iyong Obsidian vault o Web Clipper sa ibang device",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "I-save ang web content sa pribado at pangmatagalang format, na maaaring ma-access offline. Ang opisyal na browser extension para sa Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Hindi makopya ang text"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Salamat sa iyong feedback"
-	},
-	"folder": {
-		"message": "Folder"
 	},
 	"general": {
 		"message": "Pangkalahatan"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "I-import ang mga property"
 	},
-	"importPropertiesDescription": {
-		"message": "Para i-import ang mga property mula sa Obsidian, hanapin ang $strong_1_start$types.json$strong_1_end$ file sa $strong_2_start$.obsidian$strong_2_end$ folder ng iyong vault. Ang folder na ito ay nakatago by default sa karamihan ng operating system.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "I-import ang mga setting"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Legacy mode"
-	},
-	"legacyModeDescription": {
-		"message": "Gumagamit ng URI capture method na compatible sa Obsidian 1.6.7 at mas luma. Tandaan na ang haba ng na-capture na content ay limitado ng browser at operating system. Ang ilang pahina ay maaaring mabigo nang walang error message."
 	},
 	"loadArticle": {
 		"message": "Basahin ang artikulo"
@@ -531,27 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Walang nahanap na hindi ginagamit na mga property."
 	},
-	"noteContent": {
-		"message": "Content ng note"
-	},
-	"noteContentDescription": {
-		"message": "I-customize ang content ng note. Gumamit ng mga variable para i-prefill ang data mula sa pahina."
-	},
-	"noteLocation": {
-		"message": "Lokasyon ng note"
-	},
-	"noteLocationDescription": {
-		"message": "Ang folder o path para sa note."
-	},
-	"noteName": {
-		"message": "Pangalan ng note"
-	},
-	"noteNameFormat": {
-		"message": "Format ng pangalan ng note"
-	},
-	"noteNameFormatDescription": {
-		"message": "Ang format na ginagamit para bumuo ng mga pangalan ng note. Maaari kang gumamit ng mga variable."
-	},
 	"notesAboutPage": {
 		"message": "Mga note tungkol sa pahinang ito..."
 	},
@@ -585,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "O i-paste ang content sa ibaba"
 	},
-	"overwriteNote": {
-		"message": "I-overwrite ang note"
-	},
 	"pageCannotBeClipped": {
 		"message": "Hindi ma-clip ang pahinang ito."
 	},
@@ -620,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Idagdag sa daily note, sa simula"
-	},
-	"prependToExisting": {
-		"message": "Idagdag sa umiiral na note, sa simula"
 	},
 	"preview": {
 		"message": "Preview"
@@ -882,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Tanggalin ang lahat ng property na hindi ginagamit sa kahit anong template."
 	},
-	"removeVault": {
-		"message": "Tanggalin ang vault"
-	},
 	"replaceContent": {
 		"message": "Palitan ang content ng note"
 	},
@@ -975,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Ipakita ang mga variable ng pahina"
 	},
-	"silentOpen": {
-		"message": "I-save ang mga note nang hindi binubuksan"
-	},
-	"silentOpenDescription": {
-		"message": "Ang mga na-clip na note ay mase-save pero hindi bubuksan sa bagong tab. Ang Obsidian ay dadalhin pa rin sa foreground."
-	},
 	"sort": {
 		"message": "Ayusin"
 	},
@@ -995,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z hanggang A"
-	},
-	"specificNoteName": {
-		"message": "Tiyak na pangalan ng note"
 	},
 	"systemDefault": {
 		"message": "System default"
@@ -1029,9 +907,6 @@
 	"templateProperties": {
 		"message": "Mga Property"
 	},
-	"templatePropertiesDescription": {
-		"message": "Mga property na idadagdag sa simula ng na-clip na note. Gumamit ng mga variable para i-prefill ang data mula sa pahina."
-	},
 	"templateTriggers": {
 		"message": "Mga Template Trigger"
 	},
@@ -1055,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Gumagamit ka ng pinakabagong bersyon"
-	},
-	"vault": {
-		"message": "Vault"
-	},
-	"vaultDescription": {
-		"message": "Piliin ang default vault para sa template na ito. Pumunta sa $link_start$general settings$link_end$ para magdagdag o magtanggal ng mga vault.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Mga Vault"
-	},
-	"vaultsDescription": {
-		"message": "By default, ang mga na-clip na note ay sine-save sa bukas na vault. Maaari kang magdagdag ng mga vault dito kung gusto mong magkaroon ng opsyon na mag-save sa iba't ibang vault. Ang pangalan ng vault ay dapat eksaktong tumugma sa pangalan ng Obsidian vault. Pindutin ang $strong_start$enter$strong_end$ para magdagdag ng vault.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Bersyon"

@@ -18,10 +18,7 @@
 		"message": "Tilføj udbyder"
 	},
 	"addToObsidian": {
-		"message": "Tilføj til Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Tryk Enter for at tilføje boks"
+		"message": "Tilføj til Thymer"
 	},
 	"advanced": {
 		"message": "Avanceret"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "API-nøgle mangler"
-	},
-	"apiKeysWarning": {
-		"message": "Ved at bruge en ekstern udbyder accepterer du deres vilkår og betingelser samt privatlivspolitik. Fortolkerforespørgsler sendes direkte til din valgte udbyder. Obsidian indsamler eller gemmer ikke information om dine forespørgsler."
-	},
-	"appendToDaily": {
-		"message": "Tilføj til daglig note, i slutningen"
-	},
-	"appendToExisting": {
-		"message": "Tilføj til eksisterende note, i slutningen"
 	},
 	"autoRunInterpreter": {
 		"message": "Kør automatisk"
@@ -96,7 +84,7 @@
 		"message": "Klipningsopførsel"
 	},
 	"clipBehaviorDescription": {
-		"message": "Vælg hvordan det markerede indhold gemmes i Obsidian. Sætter variablen $strong_start${{content}}$strong_end$",
+		"message": "Vælg hvordan det markerede indhold gemmes i Thymer. Sætter variablen $strong_start${{content}}$strong_end$",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian kan ikke få adgang til din udklipsholder. Prøv fejlfindingsvejledningen her: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Luk"
-	},
-	"commandOpenClipper": {
-		"message": "Åbn Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Hurtigklip"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Kopiér til udklipsholder"
 	},
-	"createNewNote": {
-		"message": "Opret ny note"
-	},
 	"custom": {
 		"message": "Tilpasset"
-	},
-	"dailyNoteFormat": {
-		"message": "Format for daglig note (f.eks. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Standard fortolkerkontekst"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplikér"
 	},
-	"earlyAccessDescription": {
-		"message": "Brug funktioner der kræver den nyeste $link_start$tidlig adgang-version$link_end$ af Obsidian. Kræver i øjeblikket Obsidian 1.7.2 eller nyere.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Tidlig adgang-funktioner"
 	},
@@ -225,7 +185,7 @@
 		"message": "Indlejret"
 	},
 	"enableHighlighterDescription": {
-		"message": "Fremhæv indhold på websider for at gemme i Obsidian"
+		"message": "Fremhæv indhold på websider for at gemme i Thymer"
 	},
 	"enableInterpreter": {
 		"message": "Aktivér fortolker"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Eksportér egenskaber"
-	},
-	"exportPropertiesDescription": {
-		"message": "Gem Web Clipper-egenskaber til en $strong_start$types.json$strong_end$-fil, som kan importeres i din Obsidian-boks eller Web Clipper på andre enheder",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Gem webindhold i et privat og holdbart format, tilgængeligt offline. Den officielle browserudvidelse til Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Kunne ikke kopiere tekst"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Tak for din feedback"
-	},
-	"folder": {
-		"message": "Mappe"
 	},
 	"general": {
 		"message": "Generelt"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importér egenskaber"
 	},
-	"importPropertiesDescription": {
-		"message": "For at importere egenskaber fra Obsidian, find $strong_1_start$types.json$strong_1_end$-filen i $strong_2_start$.obsidian$strong_2_end$-mappen i din boks. Denne mappe er som standard skjult på de fleste operativsystemer.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importér indstillinger"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Legacy-tilstand"
-	},
-	"legacyModeDescription": {
-		"message": "Bruger URI-indfangningsmetoden som er kompatibel med Obsidian 1.6.7 og ældre. Bemærk at længden af indfanget indhold er begrænset af browseren og operativsystemet. Nogle sider kan fejle uden fejlmeddelelse."
 	},
 	"loadArticle": {
 		"message": "Læs artikel"
@@ -531,27 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Ingen ubrugte egenskaber fundet."
 	},
-	"noteContent": {
-		"message": "Noteindhold"
-	},
-	"noteContentDescription": {
-		"message": "Tilpas notens indhold. Brug variabler til at forudfylde data fra siden."
-	},
-	"noteLocation": {
-		"message": "Noteplacering"
-	},
-	"noteLocationDescription": {
-		"message": "Mappen eller stien til noten."
-	},
-	"noteName": {
-		"message": "Notenavn"
-	},
-	"noteNameFormat": {
-		"message": "Notenavnsformat"
-	},
-	"noteNameFormatDescription": {
-		"message": "Formatet der bruges til at generere notenavne. Du kan bruge variabler."
-	},
 	"notesAboutPage": {
 		"message": "Noter om denne side..."
 	},
@@ -585,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Eller indsæt indholdet nedenfor"
 	},
-	"overwriteNote": {
-		"message": "Overskriv note"
-	},
 	"pageCannotBeClipped": {
 		"message": "Denne side kan ikke klippes."
 	},
@@ -620,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Tilføj til daglig note, i starten"
-	},
-	"prependToExisting": {
-		"message": "Tilføj til eksisterende note, i starten"
 	},
 	"preview": {
 		"message": "Forhåndsvisning"
@@ -882,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Fjern alle egenskaber der ikke bruges i nogen skabeloner."
 	},
-	"removeVault": {
-		"message": "Fjern boks"
-	},
 	"replaceContent": {
 		"message": "Erstat noteindhold"
 	},
@@ -975,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Vis sidevariabler"
 	},
-	"silentOpen": {
-		"message": "Gem noter uden at åbne dem"
-	},
-	"silentOpenDescription": {
-		"message": "Klippede noter vil blive gemt men ikke åbnet i en ny fane. Obsidian vil stadig blive bragt i forgrunden."
-	},
 	"sort": {
 		"message": "Sortér"
 	},
@@ -995,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z til A"
-	},
-	"specificNoteName": {
-		"message": "Specifikt notenavn"
 	},
 	"systemDefault": {
 		"message": "Systemstandard"
@@ -1029,9 +907,6 @@
 	"templateProperties": {
 		"message": "Egenskaber"
 	},
-	"templatePropertiesDescription": {
-		"message": "Egenskaber der vil blive tilføjet i starten af den klippede note. Brug variabler til at forudfylde data fra siden."
-	},
 	"templateTriggers": {
 		"message": "Skabelonudløsere"
 	},
@@ -1055,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Du bruger den nyeste version"
-	},
-	"vault": {
-		"message": "Boks"
-	},
-	"vaultDescription": {
-		"message": "Vælg standardboks for denne skabelon. Gå til $link_start$generelle indstillinger$link_end$ for at tilføje eller fjerne bokse.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Bokse"
-	},
-	"vaultsDescription": {
-		"message": "Som standard gemmes klippede noter i den åbne boks. Du kan tilføje bokse her hvis du ønsker muligheden for at gemme i forskellige bokse. Boksnavnet skal matche præcist med Obsidian-boksnavnet. Tryk $strong_start$enter$strong_end$ for at tilføje en boks.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Version"

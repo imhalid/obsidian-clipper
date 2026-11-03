@@ -18,10 +18,7 @@
 		"message": "Agregar proveedor"
 	},
 	"addToObsidian": {
-		"message": "Agregar a Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Presiona enter para añadir una bóveda"
+		"message": "Agregar a Thymer"
 	},
 	"advanced": {
 		"message": "Avanzado"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Sin clave API"
-	},
-	"apiKeysWarning": {
-		"message": "Al usar un proveedor externo, aceptas sus términos y política de privacidad. Las solicitudes del intérprete se envían directamente al proveedor que elijas. Obsidian no recopila ni almacena ningún dato sobre tus solicitudes."
-	},
-	"appendToDaily": {
-		"message": "Agregar a la nota diaria, al final"
-	},
-	"appendToExisting": {
-		"message": "Agregar a una nota existente, al final"
 	},
 	"autoRunInterpreter": {
 		"message": "Ejecutar automáticamente"
@@ -96,7 +84,7 @@
 		"message": "Comportamiento de guardado"
 	},
 	"clipBehaviorDescription": {
-		"message": "Elige cómo se guarda el contenido resaltado en Obsidian. Define la variable $strong_start${{content}}$strong_end$.",
+		"message": "Elige cómo se guarda el contenido resaltado en Thymer. Define la variable $strong_start${{content}}$strong_end$.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian no puede acceder a tu portapapeles. Prueba las instrucciones de solución de problemas aquí: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Cerrar"
-	},
-	"commandOpenClipper": {
-		"message": "Abrir Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Guardado rápido"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Copiar al portapapeles"
 	},
-	"createNewNote": {
-		"message": "Crear nueva nota"
-	},
 	"custom": {
 		"message": "Personalizado"
-	},
-	"dailyNoteFormat": {
-		"message": "Formato de nota diaria (ej., YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Contexto predeterminado del intérprete"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplicar"
 	},
-	"earlyAccessDescription": {
-		"message": "Usa funciones que requieren la última versión de $link_start$acceso anticipado$link_end$ de Obsidian. Actualmente requiere Obsidian 1.7.2 o posterior.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Funciones de acceso anticipado"
 	},
@@ -225,7 +185,7 @@
 		"message": "Incrustado"
 	},
 	"enableHighlighterDescription": {
-		"message": "Resalta contenido en páginas web que puedes guardar en Obsidian."
+		"message": "Resalta contenido en páginas web que puedes guardar en Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Habilitar intérprete"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Exportar propiedades"
-	},
-	"exportPropertiesDescription": {
-		"message": "Guarda las propiedades del Web Clipper en un archivo $strong_start$types.json$strong_end$ que puede ser importado en tu bóveda de Obsidian o en Web Clipper en otros dispositivos.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Guarda contenido web en un formato privado y duradero al que puedes acceder sin conexión. La extensión oficial para Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Error al copiar el texto"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Gracias por tus comentarios"
-	},
-	"folder": {
-		"message": "Carpeta"
 	},
 	"general": {
 		"message": "General"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importar propiedades"
 	},
-	"importPropertiesDescription": {
-		"message": "Para importar tus propiedades desde Obsidian, localiza el archivo $strong_1_start$types.json$strong_1_end$ en la carpeta $strong_2_start$.obsidian$strong_2_end$ dentro de tu bóveda. Ten en cuenta que esta carpeta está oculta por defecto en la mayoría de los sistemas operativos.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importar configuraciones"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Modo heredado"
-	},
-	"legacyModeDescription": {
-		"message": "Usa el método de guardado URI compatible con Obsidian 1.6.7 o anterior. Ten en cuenta que la longitud del contenido que puedes guardar está limitada por tu navegador y sistema operativo. Algunas páginas pueden fallar sin mostrar errores."
 	},
 	"loadArticle": {
 		"message": "Leer artículo"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "No se encontraron propiedades sin usar."
 	},
-	"noteContent": {
-		"message": "Contenido de la nota"
-	},
-	"noteContentDescription": {
-		"message": "Personaliza el contenido de la nota. Usa variables para pre-poblar datos de la página."
-	},
-	"noteLocation": {
-		"message": "Ubicación de la nota"
-	},
-	"noteLocationDescription": {
-		"message": "La carpeta o ruta de la nota."
-	},
-	"noteName": {
-		"message": "Nombre de la nota"
-	},
-	"noteNameFormat": {
-		"message": "Nombre de la nota"
-	},
-	"noteNameFormatDescription": {
-		"message": "Formato para el nombre del archivo de la nota. Puedes usar variables como {{title}}, {{date}} y {{published}} para pre-poblar datos de la página. $link_start$Más información$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Notas sobre esta página..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "O pegue el contenido a continuación"
 	},
-	"overwriteNote": {
-		"message": "Sobrescribir nota"
-	},
 	"pageCannotBeClipped": {
 		"message": "Esta página no se puede guardar."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Ventana emergente"
-	},
-	"prependToDaily": {
-		"message": "Agregar a la nota diaria, al principio"
-	},
-	"prependToExisting": {
-		"message": "Agregar a una nota existente, al principio"
 	},
 	"preview": {
 		"message": "Vista previa"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Elimina todas las propiedades que no se utilizan en ninguna plantilla."
 	},
-	"removeVault": {
-		"message": "Eliminar bóveda"
-	},
 	"replaceContent": {
 		"message": "Reemplazar el contenido de la página"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Mostrar variables de página"
 	},
-	"silentOpen": {
-		"message": "Guardar nota sin abrirla"
-	},
-	"silentOpenDescription": {
-		"message": "Las notas se guardarán pero no se abrirán en una nueva pestaña. Obsidian seguirá siendo traído al primer plano."
-	},
 	"sort": {
 		"message": "Ordenar"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z a A"
-	},
-	"specificNoteName": {
-		"message": "Nombre específico de la nota"
 	},
 	"systemDefault": {
 		"message": "Sistema"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Propiedades"
 	},
-	"templatePropertiesDescription": {
-		"message": "Propiedades para agregar en la parte superior de la nota guardada. Usa variables para pre-poblar datos de la página."
-	},
 	"templateTriggers": {
 		"message": "Activadores de plantilla"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Estás usando la última versión."
-	},
-	"vault": {
-		"message": "Bóveda"
-	},
-	"vaultDescription": {
-		"message": "Selecciona la bóveda predeterminada para esta plantilla. Ve a $link_start$ajustes generales$link_end$ para agregar o eliminar bóvedas.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Bóvedas"
-	},
-	"vaultsDescription": {
-		"message": "Por defecto, las notas se guardan en la bóveda abierta actualmente. Puedes añadir bóvedas aquí si quieres la opción de guardar en diferentes bóvedas. Los nombres de las bóvedas deben coincidir exactamente con el nombre de la bóveda de Obsidian. Presiona $strong_start$enter$strong_end$ para añadir una bóveda.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versión"

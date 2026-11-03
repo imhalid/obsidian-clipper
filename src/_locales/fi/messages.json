@@ -18,10 +18,7 @@
 		"message": "Lisää palveluntarjoaja"
 	},
 	"addToObsidian": {
-		"message": "Lisää Obsidianiin"
-	},
-	"addVaultPlaceholder": {
-		"message": "Paina enter lisätäksesi holvin"
+		"message": "Lisää Thymeriin"
 	},
 	"advanced": {
 		"message": "Lisäasetukset"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Ei API-avainta"
-	},
-	"apiKeysWarning": {
-		"message": "Käyttämällä ulkoista palveluntarjoajaa hyväksyt heidän käyttöehtonsa ja tietosuojakäytäntönsä. Tulkin pyynnöt lähetetään suoraan valitsemallesi palveluntarjoajalle. Obsidian ei kerää tai tallenna mitään tietoja pyynnöistäsi."
-	},
-	"appendToDaily": {
-		"message": "Lisää päivittäiseen muistiinpanoon, loppuun"
-	},
-	"appendToExisting": {
-		"message": "Lisää olemassa olevaan muistiinpanoon, loppuun"
 	},
 	"autoRunInterpreter": {
 		"message": "Suorita automaattisesti"
@@ -96,7 +84,7 @@
 		"message": "Leikkauksen käyttäytyminen"
 	},
 	"clipBehaviorDescription": {
-		"message": "Valitse, miten valittu sisältö tallennetaan Obsidianiin. Määrittää muuttujan $strong_start${{content}}$strong_end$",
+		"message": "Valitse, miten valittu sisältö tallennetaan Thymeriin. Määrittää muuttujan $strong_start${{content}}$strong_end$",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian ei voi käyttää leikepöytääsi. Kokeile vianmääritysohjeita täällä: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Sulje"
-	},
-	"commandOpenClipper": {
-		"message": "Avaa Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Pikaleikkaus"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Kopioi leikepöydälle"
 	},
-	"createNewNote": {
-		"message": "Luo uusi muistiinpano"
-	},
 	"custom": {
 		"message": "Mukautettu"
-	},
-	"dailyNoteFormat": {
-		"message": "Päivittäisen muistiinpanon muoto (esim. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Tulkin oletuskonteksti"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Monista"
 	},
-	"earlyAccessDescription": {
-		"message": "Käytä ominaisuuksia, jotka vaativat uusimman $link_start$early access -version$link_end$ Obsidianista. Vaatii tällä hetkellä Obsidian 1.7.2 tai uudemman.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Early access -ominaisuudet"
 	},
@@ -225,7 +185,7 @@
 		"message": "Upotettu"
 	},
 	"enableHighlighterDescription": {
-		"message": "Korosta verkkosivujen sisältöä, jonka voit tallentaa Obsidianiin"
+		"message": "Korosta verkkosivujen sisältöä, jonka voit tallentaa Thymeriin"
 	},
 	"enableInterpreter": {
 		"message": "Ota tulkki käyttöön"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Vie ominaisuudet"
-	},
-	"exportPropertiesDescription": {
-		"message": "Tallenna Web Clipperin ominaisuudet $strong_start$types.json$strong_end$ -tiedostoon, jonka voit tuoda Obsidian-holviin tai Web Clipperiin muilla laitteilla",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Tallenna verkkosisältöä yksityisessä ja kestävässä muodossa, jota voit käyttää offline-tilassa. Obsidianin virallinen selainlaajennus."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Tekstin kopiointi epäonnistui"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Kiitos palautteestasi"
-	},
-	"folder": {
-		"message": "Kansio"
 	},
 	"general": {
 		"message": "Yleiset"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Tuo ominaisuudet"
 	},
-	"importPropertiesDescription": {
-		"message": "Tuodaksesi ominaisuudet Obsidianista, etsi $strong_1_start$types.json$strong_1_end$ -tiedosto holvisi $strong_2_start$.obsidian$strong_2_end$ -kansiosta. Huomaa, että tämä kansio on oletuksena piilotettu useimmissa käyttöjärjestelmissä.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Tuo asetukset"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Yhteensopivuustila"
-	},
-	"legacyModeDescription": {
-		"message": "Käyttää URI-leikkausmenetelmää, joka on yhteensopiva Obsidian 1.6.7:n tai sitä aikaisempien versioiden kanssa. Huomaa, että selaimen ja käyttöjärjestelmän rajoittama leikattavan sisällön pituus. Jotkin sivut saattavat epäonnistua ilman virheitä."
 	},
 	"loadArticle": {
 		"message": "Lue artikkeli"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Käyttämättömiä ominaisuuksia ei löytynyt."
 	},
-	"noteContent": {
-		"message": "Muistiinpanon sisältö"
-	},
-	"noteContentDescription": {
-		"message": "Mukauta muistiinpanon sisältö. Käytä muuttujia sivulta ennakkotäyttöön."
-	},
-	"noteLocation": {
-		"message": "Muistiinpanon sijainti"
-	},
-	"noteLocationDescription": {
-		"message": "Muistiinpanon kansio tai polku."
-	},
-	"noteName": {
-		"message": "Muistiinpanon nimi"
-	},
-	"noteNameFormat": {
-		"message": "Muistiinpanon nimen muoto"
-	},
-	"noteNameFormatDescription": {
-		"message": "Muistiinpanon tiedostonimen muoto. Voit käyttää muuttujia, kuten {{title}}, {{date}} ja {{published}} sivulta ennakkotäytettyjen tietojen lisäämiseen. $link_start$Opi lisää$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Huomioita tästä sivusta..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Tai liitä sisältö alle"
 	},
-	"overwriteNote": {
-		"message": "Korvaa muistiinpano"
-	},
 	"pageCannotBeClipped": {
 		"message": "Tätä sivua ei voi leikata."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Ponnahdusikkuna"
-	},
-	"prependToDaily": {
-		"message": "Lisää päivittäiseen muistiinpanoon, yläosaan"
-	},
-	"prependToExisting": {
-		"message": "Lisää olemassa olevaan muistiinpanoon, yläosaan"
 	},
 	"preview": {
 		"message": "Esikatselu"
@@ -898,9 +780,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Poista kaikki ominaisuudet, joita ei käytetä missään mallissa."
 	},
-	"removeVault": {
-		"message": "Poista holvi"
-	},
 	"replaceContent": {
 		"message": "Korvaa sivun sisältö"
 	},
@@ -991,12 +870,6 @@
 	"showPageVariables": {
 		"message": "Näytä sivun muuttujat"
 	},
-	"silentOpen": {
-		"message": "Tallenna leikatut muistiinpanot avaamatta"
-	},
-	"silentOpenDescription": {
-		"message": "Leikatut muistiinpanot tallennetaan mutta niitä ei avata uudessa välilehdessä. Obsidian tuodaan silti etualalle."
-	},
 	"sort": {
 		"message": "Lajittele"
 	},
@@ -1011,9 +884,6 @@
 	},
 	"sortZA": {
 		"message": "Ö–A"
-	},
-	"specificNoteName": {
-		"message": "Tietty muistiinpanon nimi"
 	},
 	"systemDefault": {
 		"message": "Järjestelmän oletus"
@@ -1045,9 +915,6 @@
 	"templateProperties": {
 		"message": "Ominaisuudet"
 	},
-	"templatePropertiesDescription": {
-		"message": "Ominaisuudet, jotka lisätään leikatun muistiinpanon alkuun. Käytä muuttujia täyttääksesi tiedot sivulta."
-	},
 	"templateTriggers": {
 		"message": "Mallin laukaisimet"
 	},
@@ -1071,34 +938,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Käytät uusinta versiota"
-	},
-	"vault": {
-		"message": "Holvi"
-	},
-	"vaultDescription": {
-		"message": "Valitse oletusholvi tälle mallille. Mene $link_start$yleisiin asetuksiin$link_end$ lisätäksesi tai poistaaksesi holveja.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Holvit"
-	},
-	"vaultsDescription": {
-		"message": "Oletuksena leikatut muistiinpanot tallennetaan avoinna olevaan holviin. Voit lisätä holveja täällä, jos haluat mahdollisuuden tallentaa eri holveihin. Holvin nimen täytyy vastata täsmälleen Obsidian-holvin nimeä. Paina $strong_start$enter$strong_end$ lisätäksesi holvin.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versio"

@@ -18,10 +18,7 @@
 		"message": "Lägg till leverantör"
 	},
 	"addToObsidian": {
-		"message": "Lägg till i Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Tryck på retur för att lägga till ett valv"
+		"message": "Lägg till i Thymer"
 	},
 	"advanced": {
 		"message": "Avancerat"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Ingen API-nyckel"
-	},
-	"apiKeysWarning": {
-		"message": "Genom att använda en extern leverantör godkänner du deras villkor och sekretesspolicy. Tolkningsförfrågningar skickas direkt till leverantören du väljer. Obsidian samlar inte in eller lagrar någon data om dina förfrågningar."
-	},
-	"appendToDaily": {
-		"message": "Lägg till i daglig anteckning, i slutet"
-	},
-	"appendToExisting": {
-		"message": "Lägg till i befintlig anteckning, i slutet"
 	},
 	"autoRunInterpreter": {
 		"message": "Kör automatiskt"
@@ -96,7 +84,7 @@
 		"message": "Klippbeteende"
 	},
 	"clipBehaviorDescription": {
-		"message": "Välj hur markerat innehåll sparas till Obsidian. Definierar variabeln $strong_start${{content}}$strong_end$.",
+		"message": "Välj hur markerat innehåll sparas till Thymer. Definierar variabeln $strong_start${{content}}$strong_end$.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian kan inte komma åt ditt urklipp. Prova felsökningsinstruktionerna här: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Stäng"
-	},
-	"commandOpenClipper": {
-		"message": "Öppna Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Snabbklipp"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Kopiera till urklipp"
 	},
-	"createNewNote": {
-		"message": "Skapa ny anteckning"
-	},
 	"custom": {
 		"message": "Anpassad"
-	},
-	"dailyNoteFormat": {
-		"message": "Format för daglig anteckning (t.ex. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Standardkontext för tolk"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplicera"
 	},
-	"earlyAccessDescription": {
-		"message": "Använd funktioner som kräver den senaste $link_start$early access-versionen$link_end$ av Obsidian. Kräver för närvarande Obsidian 1.7.2 eller senare.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Early access-funktioner"
 	},
@@ -225,7 +185,7 @@
 		"message": "Inbäddad"
 	},
 	"enableHighlighterDescription": {
-		"message": "Markera innehåll på webbsidor som du kan spara till Obsidian."
+		"message": "Markera innehåll på webbsidor som du kan spara till Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Aktivera tolk"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Exportera egenskaper"
-	},
-	"exportPropertiesDescription": {
-		"message": "Spara Web Clipper-egenskaper till en $strong_start$types.json$strong_end$-fil som kan importeras till ditt Obsidian-valv eller till Web Clipper på andra enheter.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Spara innehåll från webben i ett privat och hållbart format som du kan komma åt offline. Den officiella webbläsartillägget för Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Det gick inte att kopiera texten"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Tack för din återkoppling"
-	},
-	"folder": {
-		"message": "Mapp"
 	},
 	"general": {
 		"message": "Allmänt"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importera egenskaper"
 	},
-	"importPropertiesDescription": {
-		"message": "För att importera dina egenskaper från Obsidian, hitta $strong_1_start$types.json$strong_1_end$-filen i mappen $strong_2_start$.obsidian$strong_2_end$ i ditt valv. Observera att denna mapp är dold som standard på de flesta operativsystem.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importera inställningar"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Äldre läge"
-	},
-	"legacyModeDescription": {
-		"message": "Använder URI-klippmetoden som är kompatibel med Obsidian 1.6.7 eller tidigare. Observera att längden på innehållet du kan klippa är begränsad av din webbläsare och operativsystem. Vissa sidor kan misslyckas utan felmeddelanden."
 	},
 	"loadArticle": {
 		"message": "Läs artikel"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Inga oanvända egenskaper hittades."
 	},
-	"noteContent": {
-		"message": "Anteckningsinnehåll"
-	},
-	"noteContentDescription": {
-		"message": "Anpassa innehållet i anteckningen. Använd variabler för att förfylla data från sidan."
-	},
-	"noteLocation": {
-		"message": "Anteckningsplats"
-	},
-	"noteLocationDescription": {
-		"message": "Mappen eller sökvägen för anteckningen."
-	},
-	"noteName": {
-		"message": "Anteckningsnamn"
-	},
-	"noteNameFormat": {
-		"message": "Anteckningsnamn"
-	},
-	"noteNameFormatDescription": {
-		"message": "Format för filnamnet på anteckningen. Du kan använda variabler som {{title}}, {{date}} och {{published}} för att förfylla data från sidan. $link_start$Läs mer$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Anteckningar om denna sida..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Eller klistra in innehåll nedan"
 	},
-	"overwriteNote": {
-		"message": "Skriv över anteckning"
-	},
 	"pageCannotBeClipped": {
 		"message": "Denna sida kan inte klippas."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Lägg till i daglig anteckning, i början"
-	},
-	"prependToExisting": {
-		"message": "Lägg till i befintlig anteckning, i början"
 	},
 	"preview": {
 		"message": "Förhandsgranskning"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Ta bort alla egenskaper som inte används i någon mall."
 	},
-	"removeVault": {
-		"message": "Ta bort valv"
-	},
 	"replaceContent": {
 		"message": "Ersätt sidinnehållet"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Visa sidvariabler"
 	},
-	"silentOpen": {
-		"message": "Spara klippt anteckning utan att öppna den"
-	},
-	"silentOpenDescription": {
-		"message": "Klippta anteckningar kommer att sparas men inte öppnas som en ny flik. Obsidian kommer fortfarande att flyttas till förgrunden."
-	},
 	"sort": {
 		"message": "Sortera"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Ö till A"
-	},
-	"specificNoteName": {
-		"message": "Specifikt anteckningsnamn"
 	},
 	"systemDefault": {
 		"message": "System"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Egenskaper"
 	},
-	"templatePropertiesDescription": {
-		"message": "Egenskaper att lägga till överst i den klippta anteckningen. Använd variabler för att förfylla data från sidan."
-	},
 	"templateTriggers": {
 		"message": "Mallutlösare"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Du använder den senaste versionen."
-	},
-	"vault": {
-		"message": "Valv"
-	},
-	"vaultDescription": {
-		"message": "Välj standardvalvet för denna mall. Gå till $link_start$allmänna inställningar$link_end$ för att lägga till eller ta bort valv.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Valv"
-	},
-	"vaultsDescription": {
-		"message": "Som standard sparas klippta anteckningar i det för närvarande öppna valvet. Du kan lägga till valv här om du vill ha möjlighet att spara i olika valv. Valvnamn måste exakt matcha namnet på Obsidian-valvet. Tryck $strong_start$retur$strong_end$ för att lägga till ett valv.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Version"

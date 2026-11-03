@@ -18,10 +18,7 @@
 		"message": "เพิ่มผู้ให้บริการ"
 	},
 	"addToObsidian": {
-		"message": "เพิ่มไปยัง Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "กด Enter เพื่อเพิ่มคลัง"
+		"message": "เพิ่มไปยัง Thymer"
 	},
 	"advanced": {
 		"message": "ขั้นสูง"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "ไม่มีคีย์ API"
-	},
-	"apiKeysWarning": {
-		"message": "การใช้ผู้ให้บริการภายนอกถือว่าคุณยอมรับข้อกำหนดและนโยบายความเป็นส่วนตัวของพวกเขา คำขอตัวแปลจะถูกส่งตรงไปยังผู้ให้บริการที่คุณเลือก Obsidian ไม่ได้เก็บรวบรวมหรือจัดเก็บข้อมูลใดๆ เกี่ยวกับคำขอของคุณ"
-	},
-	"appendToDaily": {
-		"message": "เพิ่มไปยังบันทึกประจำวัน ที่ท้าย"
-	},
-	"appendToExisting": {
-		"message": "เพิ่มไปยังบันทึกที่มีอยู่ ที่ท้าย"
 	},
 	"autoRunInterpreter": {
 		"message": "เรียกใช้อัตโนมัติ"
@@ -96,7 +84,7 @@
 		"message": "พฤติกรรมการคลิป"
 	},
 	"clipBehaviorDescription": {
-		"message": "เลือกวิธีบันทึกเนื้อหาที่เลือกไปยัง Obsidian กำหนดตัวแปร $strong_start${{content}}$strong_end$",
+		"message": "เลือกวิธีบันทึกเนื้อหาที่เลือกไปยัง Thymer กำหนดตัวแปร $strong_start${{content}}$strong_end$",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian ไม่สามารถเข้าถึงคลิปบอร์ดของคุณได้ ลองทำตามคำแนะนำการแก้ไขปัญหาที่นี่: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "ปิด"
-	},
-	"commandOpenClipper": {
-		"message": "เปิด Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "คลิปด่วน"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "คัดลอกไปยังคลิปบอร์ด"
 	},
-	"createNewNote": {
-		"message": "สร้างบันทึกใหม่"
-	},
 	"custom": {
 		"message": "กำหนดเอง"
-	},
-	"dailyNoteFormat": {
-		"message": "รูปแบบบันทึกประจำวัน (เช่น YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "บริบทตัวแปลค่าเริ่มต้น"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "ทำซ้ำ"
 	},
-	"earlyAccessDescription": {
-		"message": "ใช้คุณสมบัติที่ต้องการ $link_start$เวอร์ชัน early access$link_end$ ล่าสุดของ Obsidian ปัจจุบันต้องใช้ Obsidian 1.7.2 หรือใหม่กว่า",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "คุณสมบัติ Early Access"
 	},
@@ -225,7 +185,7 @@
 		"message": "ฝัง"
 	},
 	"enableHighlighterDescription": {
-		"message": "ไฮไลต์เนื้อหาบนหน้าเว็บที่คุณสามารถบันทึกไปยัง Obsidian"
+		"message": "ไฮไลต์เนื้อหาบนหน้าเว็บที่คุณสามารถบันทึกไปยัง Thymer"
 	},
 	"enableInterpreter": {
 		"message": "เปิดใช้งานตัวแปล"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "ส่งออกคุณสมบัติ"
-	},
-	"exportPropertiesDescription": {
-		"message": "บันทึกคุณสมบัติ Web Clipper ไปยังไฟล์ $strong_start$types.json$strong_end$ ที่สามารถนำเข้าไปยังคลัง Obsidian ของคุณหรือ Web Clipper บนอุปกรณ์อื่น",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "บันทึกเนื้อหาจากเว็บในรูปแบบส่วนตัวและยั่งยืนที่คุณสามารถเข้าถึงได้แบบออฟไลน์ ส่วนขยายเบราว์เซอร์อย่างเป็นทางการสำหรับ Obsidian"
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "ไม่สามารถคัดลอกข้อความ"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "ขอบคุณสำหรับข้อเสนอแนะ"
-	},
-	"folder": {
-		"message": "โฟลเดอร์"
 	},
 	"general": {
 		"message": "ทั่วไป"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "นำเข้าคุณสมบัติ"
 	},
-	"importPropertiesDescription": {
-		"message": "ในการนำเข้าคุณสมบัติจาก Obsidian ให้ค้นหาไฟล์ $strong_1_start$types.json$strong_1_end$ ในโฟลเดอร์ $strong_2_start$.obsidian$strong_2_end$ ในคลังของคุณ โปรดทราบว่าโฟลเดอร์นี้ถูกซ่อนโดยค่าเริ่มต้นบนระบบปฏิบัติการส่วนใหญ่",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "นำเข้าการตั้งค่า"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "โหมดเก่า"
-	},
-	"legacyModeDescription": {
-		"message": "ใช้วิธีการคลิป URI ที่เข้ากันได้กับ Obsidian 1.6.7 หรือเก่ากว่า โปรดทราบว่าความยาวของเนื้อหาที่คุณสามารถคลิปได้ถูกจำกัดโดยเบราว์เซอร์และระบบปฏิบัติการของคุณ บางหน้าอาจล้มเหลวโดยไม่มีข้อความแสดงข้อผิดพลาด"
 	},
 	"loadArticle": {
 		"message": "อ่านบทความ"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "ไม่พบคุณสมบัติที่ไม่ได้ใช้"
 	},
-	"noteContent": {
-		"message": "เนื้อหาบันทึก"
-	},
-	"noteContentDescription": {
-		"message": "ปรับแต่งเนื้อหาของบันทึก ใช้ตัวแปรเพื่อเติมข้อมูลจากหน้า"
-	},
-	"noteLocation": {
-		"message": "ตำแหน่งบันทึก"
-	},
-	"noteLocationDescription": {
-		"message": "โฟลเดอร์หรือเส้นทางสำหรับบันทึก"
-	},
-	"noteName": {
-		"message": "ชื่อบันทึก"
-	},
-	"noteNameFormat": {
-		"message": "ชื่อบันทึก"
-	},
-	"noteNameFormatDescription": {
-		"message": "รูปแบบชื่อไฟล์สำหรับบันทึก คุณสามารถใช้ตัวแปรเช่น {{title}}, {{date}} และ {{published}} เพื่อเติมข้อมูลจากหน้า $link_start$เรียนรู้เพิ่มเติม$link_end$",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "บันทึกเกี่ยวกับหน้านี้..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "หรือวางเนื้อหาด้านล่าง"
 	},
-	"overwriteNote": {
-		"message": "เขียนทับบันทึก"
-	},
 	"pageCannotBeClipped": {
 		"message": "ไม่สามารถคลิปหน้านี้ได้"
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "ป๊อปอัป"
-	},
-	"prependToDaily": {
-		"message": "เพิ่มไปยังบันทึกประจำวัน ที่ต้น"
-	},
-	"prependToExisting": {
-		"message": "เพิ่มไปยังบันทึกที่มีอยู่ ที่ต้น"
 	},
 	"preview": {
 		"message": "ดูตัวอย่าง"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "ลบคุณสมบัติทั้งหมดที่ไม่ได้ใช้ในเทมเพลตใดๆ"
 	},
-	"removeVault": {
-		"message": "ลบคลัง"
-	},
 	"replaceContent": {
 		"message": "แทนที่เนื้อหาหน้า"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "แสดงตัวแปรหน้า"
 	},
-	"silentOpen": {
-		"message": "บันทึกบันทึกที่คลิปโดยไม่เปิด"
-	},
-	"silentOpenDescription": {
-		"message": "บันทึกที่คลิปจะถูกบันทึกแต่ไม่เปิดเป็นแท็บใหม่ Obsidian จะยังคงถูกนำมาไว้ด้านหน้า"
-	},
 	"sort": {
 		"message": "จัดเรียง"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z ถึง A"
-	},
-	"specificNoteName": {
-		"message": "ชื่อบันทึกเฉพาะ"
 	},
 	"systemDefault": {
 		"message": "ค่าเริ่มต้นของระบบ"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "คุณสมบัติ"
 	},
-	"templatePropertiesDescription": {
-		"message": "คุณสมบัติที่จะเพิ่มที่ด้านบนของบันทึกที่คลิป ใช้ตัวแปรเพื่อเติมข้อมูลล่วงหน้าจากหน้า"
-	},
 	"templateTriggers": {
 		"message": "ตัวกระตุ้นเทมเพลต"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "คุณกำลังใช้เวอร์ชันล่าสุด"
-	},
-	"vault": {
-		"message": "คลัง"
-	},
-	"vaultDescription": {
-		"message": "เลือกคลังเริ่มต้นสำหรับเทมเพลตนี้ ไปที่ $link_start$การตั้งค่าทั่วไป$link_end$ เพื่อเพิ่มหรือลบคลัง",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "คลัง"
-	},
-	"vaultsDescription": {
-		"message": "โดยค่าเริ่มต้น บันทึกที่คลิปจะถูกบันทึกในคลังที่เปิดอยู่ คุณสามารถเพิ่มคลังที่นี่ถ้าคุณต้องการตัวเลือกในการบันทึกไปยังคลังต่างๆ ชื่อคลังต้องตรงกับชื่อคลัง Obsidian พอดี กด $strong_start$enter$strong_end$ เพื่อเพิ่มคลัง",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "เวอร์ชัน"

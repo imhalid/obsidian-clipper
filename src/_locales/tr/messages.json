@@ -21,7 +21,7 @@
 		"message": "Thymer'a ekle"
 	},
 	"addVaultPlaceholder": {
-		"message": "Kasa eklemek için enter'a basın"
+		"message": "Workspace eklemek için enter'a basın"
 	},
 	"advanced": {
 		"message": "Gelişmiş"
@@ -45,13 +45,13 @@
 		"message": "API anahtarı yok"
 	},
 	"apiKeysWarning": {
-		"message": "Harici sağlayıcı kullandığınızda, onların şartlarını ve gizlilik politikasını kabul edersiniz..."
+		"message": "Harici bir sağlayıcı kullanarak onların şartlarını ve gizlilik politikasını kabul etmiş olursunuz. Yorumlayıcı istekleri doğrudan seçtiğiniz sağlayıcıya gönderilir. Thymer Web Clipper istekleriniz hakkında hiçbir veri toplamaz veya saklamaz."
 	},
 	"appendToDaily": {
-		"message": "Günlük nota, sona ekle"
+		"message": "Bugünün günlük sayfasına, sona ekle"
 	},
 	"appendToExisting": {
-		"message": "Mevcut nota, sona ekle"
+		"message": "Var olan bir sayfaya, sona ekle"
 	},
 	"autoRunInterpreter": {
 		"message": "Otomatik çalıştır"
@@ -96,7 +96,7 @@
 		"message": "Kaydetme şekli"
 	},
 	"clipBehaviorDescription": {
-		"message": "Vurgulanan içeriğin Obsidian'a nasıl kaydedileceğini seçin. $strong_start${{content}}$strong_end$ değişkenini tanımlar.",
+		"message": "Vurgulanan içeriğin Thymer'a nasıl kaydedileceğini seçin. $strong_start${{content}}$strong_end$ değişkenini tanımlar.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -107,7 +107,7 @@
 		}
 	},
 	"clipboardError": {
-		"message": "Obsidian panonuza erişemiyor. Şuradaki sorun giderme talimatlarını deneyin: $1",
+		"message": "Panoya erişilemedi. Sorun giderme talimatlarını deneyin: $1",
 		"placeholders": {
 			"1": {
 				"content": "$1"
@@ -118,7 +118,7 @@
 		"message": "Kapat"
 	},
 	"commandOpenClipper": {
-		"message": "Obsidian Kırpıcı'yı aç"
+		"message": "Thymer Web Clipper'ı aç"
 	},
 	"commandQuickClip": {
 		"message": "Hızlı kırp"
@@ -145,13 +145,13 @@
 		"message": "Panoya kopyala"
 	},
 	"createNewNote": {
-		"message": "Yeni not oluştur"
+		"message": "Yeni sayfa oluştur"
 	},
 	"custom": {
 		"message": "Özel"
 	},
 	"dailyNoteFormat": {
-		"message": "Günlük not formatı (örn: YYYY-MM-DD)"
+		"message": "Bugünün günlük sayfası"
 	},
 	"defaultInterpreterContext": {
 		"message": "Varsayılan yorumlayıcı bağlamı"
@@ -196,7 +196,7 @@
 		"message": "Çoğalt"
 	},
 	"earlyAccessDescription": {
-		"message": "Obsidian'ın en son $link_start$erken erişim sürümünü$link_end$ gerektiren özellikleri kullanın. Şu anda Obsidian 1.7.2 veya daha yeni sürüm gereklidir.",
+		"message": "Thymer Web Clipper tarafından kullanılmıyor.",
 		"placeholders": {
 			"link_end": {
 				"content": "</a>"
@@ -225,7 +225,7 @@
 		"message": "Gömülü"
 	},
 	"enableHighlighterDescription": {
-		"message": "Web sayfalarındaki Obsidian'a kaydedebileceğiniz içeriği vurgulayın."
+		"message": "Web sayfalarındaki Thymer'a kaydedebileceğiniz içeriği vurgulayın."
 	},
 	"enableInterpreter": {
 		"message": "Yorumlayıcıyı etkinleştir"
@@ -272,7 +272,7 @@
 		"message": "Özellikleri dışa aktar"
 	},
 	"exportPropertiesDescription": {
-		"message": "Web Kırpıcı özelliklerini, Obsidian kasanıza veya diğer cihazlardaki Web Kırpıcı'ya aktarılabilen bir $strong_start$types.json$strong_end$ dosyasına kaydedin.",
+		"message": "Web Clipper özelliklerini, başka cihazlardaki Web Clipper'a aktarabileceğiniz bir $strong_start$types.json$strong_end$ dosyasına kaydedin.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -283,10 +283,10 @@
 		}
 	},
 	"extensionDescription": {
-		"message": "Web içeriğini çevrimdışı erişebileceğiniz özel ve kalıcı bir formatta kaydedin. Obsidian'ın resmi tarayıcı uzantısı."
+		"message": "Web sayfalarını Thymer'a kaydedin ve vurgulayın. Obsidian Web Clipper'a dayanan, resmi olmayan bir Thymer kırpıcısı."
 	},
 	"extensionName": {
-		"message": "Obsidian Web Kırpıcı"
+		"message": "Thymer Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Metin kopyalanamadı"
@@ -343,7 +343,7 @@
 		"message": "Geri bildiriminiz için teşekkür ederiz"
 	},
 	"folder": {
-		"message": "Klasör"
+		"message": "Koleksiyon"
 	},
 	"general": {
 		"message": "Genel"
@@ -423,7 +423,7 @@
 		"message": "Özellikleri içe aktar"
 	},
 	"importPropertiesDescription": {
-		"message": "Obsidian'dan özellikleri içe aktarmak için, kasanızdaki $strong_2_start$.obsidian$strong_2_end$ klasöründe $strong_1_start$types.json$strong_1_end$ dosyasını bulun. Bu klasörün çoğu işletim sisteminde varsayılan olarak gizli olduğunu unutmayın.",
+		"message": "Web Clipper'dan dışa aktarılmış bir $strong_1_start$types.json$strong_1_end$ dosyasından özellikleri içe aktarın. Bir Obsidian kasasındaki $strong_2_start$.obsidian$strong_2_end$ klasöründe bulunan dosya da olur.",
 		"placeholders": {
 			"strong_1_end": {
 				"content": "</strong>"
@@ -481,7 +481,7 @@
 		"message": "Eski mod"
 	},
 	"legacyModeDescription": {
-		"message": "Obsidian 1.6.7 veya daha eski sürümlerle uyumlu URI kırpma yöntemini kullanır. Kırpabileceğiniz içerik uzunluğunun tarayıcınız ve işletim sisteminiz tarafından sınırlandırıldığını unutmayın. Bazı sayfalar hata vermeden başarısız olabilir."
+		"message": "Thymer Web Clipper tarafından kullanılmıyor."
 	},
 	"loadArticle": {
 		"message": "Makaleyi oku"
@@ -532,25 +532,25 @@
 		"message": "Kullanılmayan özellik bulunamadı."
 	},
 	"noteContent": {
-		"message": "Not içeriği"
+		"message": "Sayfa içeriği"
 	},
 	"noteContentDescription": {
-		"message": "Not içeriğini özelleştirin. Sayfadan veri ön doldurmak için değişkenleri kullanın."
+		"message": "Sayfanın içeriğini özelleştirin. Sayfadan veri almak için değişkenler kullanın."
 	},
 	"noteLocation": {
-		"message": "Not konumu"
+		"message": "Koleksiyon"
 	},
 	"noteLocationDescription": {
-		"message": "Notun klasörü veya yolu."
+		"message": "Sayfanın kaydedileceği Thymer koleksiyonu. Yoksa oluşturulur."
 	},
 	"noteName": {
-		"message": "Not adı"
+		"message": "Sayfa başlığı"
 	},
 	"noteNameFormat": {
-		"message": "Not adı"
+		"message": "Sayfa başlığı"
 	},
 	"noteNameFormatDescription": {
-		"message": "Not dosyasının adı için format. Sayfadan veri ön doldurmak için {{title}}, {{date}} ve {{published}} gibi değişkenleri kullanabilirsiniz. $link_start$Daha fazla bilgi$link_end$",
+		"message": "Sayfa başlığının biçimi. Sayfadan veri almak için {{title}}, {{date}} ve {{published}} gibi değişkenler kullanabilirsiniz. $link_start$Daha fazla bilgi$link_end$.",
 		"placeholders": {
 			"link_end": {
 				"content": "</a>"
@@ -594,7 +594,7 @@
 		"message": "Veya aşağıya yapıştırın"
 	},
 	"overwriteNote": {
-		"message": "Notu üzerine yaz"
+		"message": "Sayfanın üzerine yaz"
 	},
 	"pageCannotBeClipped": {
 		"message": "Bu sayfa kırpılamaz."
@@ -630,10 +630,10 @@
 		"message": "Açılır Pencere"
 	},
 	"prependToDaily": {
-		"message": "Günlük nota, başa ekle"
+		"message": "Bugünün günlük sayfasına, başa ekle"
 	},
 	"prependToExisting": {
-		"message": "Mevcut nota, başa ekle"
+		"message": "Var olan bir sayfaya, başa ekle"
 	},
 	"preview": {
 		"message": "Önizleme"
@@ -891,7 +891,7 @@
 		"message": "Hiçbir şablonda kullanılmayan tüm özellikleri kaldır."
 	},
 	"removeVault": {
-		"message": "Kasayı kaldır"
+		"message": "Workspace'i kaldır"
 	},
 	"replaceContent": {
 		"message": "Sayfa içeriğini değiştir"
@@ -984,10 +984,10 @@
 		"message": "Sayfa değişkenlerini göster"
 	},
 	"silentOpen": {
-		"message": "Kırpılan notu açmadan kaydet"
+		"message": "Kırpılan sayfayı açmadan kaydet"
 	},
 	"silentOpenDescription": {
-		"message": "Notlar kaydedilir ama yeni sekmede açılmaz. Obsidian yine de öne gelir."
+		"message": "Kırpılan sayfalar Thymer'a kaydedilir ama orada açılmaz."
 	},
 	"sort": {
 		"message": "Sırala"
@@ -1005,7 +1005,7 @@
 		"message": "Z'den A'ya"
 	},
 	"specificNoteName": {
-		"message": "Belirli not adı"
+		"message": "Belirli sayfa başlığı"
 	},
 	"systemDefault": {
 		"message": "Sistem"
@@ -1038,7 +1038,7 @@
 		"message": "Özellikler"
 	},
 	"templatePropertiesDescription": {
-		"message": "Kırpılan notun üstüne eklenecek özellikler. Sayfadan veri ön doldurmak için değişkenleri kullanın."
+		"message": "Kırpılan sayfaya eklenecek özellikler. Sayfadan veri almak için değişkenler kullanın."
 	},
 	"templateTriggers": {
 		"message": "Şablon tetikleyicileri"
@@ -1065,10 +1065,10 @@
 		"message": "En son sürümü kullanıyorsunuz."
 	},
 	"vault": {
-		"message": "Kasa"
+		"message": "Workspace"
 	},
 	"vaultDescription": {
-		"message": "Bu şablon için varsayılan kasayı seçin. Kasa eklemek veya kaldırmak için $link_start$genel ayarlar$link_end$ bölümüne gidin.",
+		"message": "Bu şablon için varsayılan Thymer workspace'ini seçin. Workspace eklemek veya kaldırmak için $link_start$genel ayarlara$link_end$ gidin.",
 		"placeholders": {
 			"link_end": {
 				"content": "</a>"
@@ -1079,10 +1079,10 @@
 		}
 	},
 	"vaults": {
-		"message": "Kasalar"
+		"message": "Workspace'ler"
 	},
 	"vaultsDescription": {
-		"message": "Varsayılan olarak, kırpılan notlar şu anda açık olan kasaya kaydedilir. Farklı kasalara kaydetme seçeneği istiyorsanız buraya kasa ekleyebilirsiniz. Kasa adları Obsidian kasasının adıyla tam olarak eşleşmelidir. Kasa eklemek için $strong_start$enter$strong_end$ tuşuna basın.",
+		"message": "Varsayılan olarak kırpmalar Thymer'da açık olan workspace'e kaydedilir. Kırparken aralarından seçmek için buraya workspace ekleyebilirsiniz. Adlar Thymer'daki workspace adlarıyla aynı olmalıdır. Workspace eklemek için $strong_start$enter$strong_end$ tuşuna basın.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"

@@ -18,10 +18,7 @@
 		"message": "Agregar proveïdor"
 	},
 	"addToObsidian": {
-		"message": "Agregar a Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Pressiona retorn per afegir una cambra cuirassada"
+		"message": "Agregar a Thymer"
 	},
 	"advanced": {
 		"message": "Avançat"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Sense clau API"
-	},
-	"apiKeysWarning": {
-		"message": "En usar un proveïdor extern, accepta els seus termes i política de privacitat. Les sol·licituds de l'intèrpret s'envien directament al proveïdor que esculli. Obsidian no recopila ni emmagatzema cap dada sobre les seves sol·licituds."
-	},
-	"appendToDaily": {
-		"message": "Agregar a la nota diària, al final"
-	},
-	"appendToExisting": {
-		"message": "Agregar a una nota existent, al final"
 	},
 	"autoRunInterpreter": {
 		"message": "Executar automàticament"
@@ -96,7 +84,7 @@
 		"message": "Comportament de guardat"
 	},
 	"clipBehaviorDescription": {
-		"message": "Escull com es guarda el contingut ressaltat a Obsidian. Defineix la variable $strong_start${{content}}$strong_end$.",
+		"message": "Escull com es guarda el contingut ressaltat a Thymer. Defineix la variable $strong_start${{content}}$strong_end$.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "L'Obsidian no pot accedir al porta-retalls. Prova les instruccions de resolució de problemes aquí: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Tancar"
-	},
-	"commandOpenClipper": {
-		"message": "Obrir Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Guardat ràpid"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Copiar al porta-retalls"
 	},
-	"createNewNote": {
-		"message": "Crear nova nota"
-	},
 	"custom": {
 		"message": "Personalitzat"
-	},
-	"dailyNoteFormat": {
-		"message": "Format de nota diària (ex., YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Context predeterminat de l'intèrpret"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplicar"
 	},
-	"earlyAccessDescription": {
-		"message": "Utilitzar funcions que requereixen la darrera versió de $link_start$accés anticipat$link_end$ d'Obsidian. Actualment, requereix Obsidian 1.7.2 o posterior.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Funcions d'accés anticipat"
 	},
@@ -225,7 +185,7 @@
 		"message": "Incrustat"
 	},
 	"enableHighlighterDescription": {
-		"message": "Ressalti contingut en pàgines web que pot guardar a Obsidian."
+		"message": "Ressalti contingut en pàgines web que pot guardar a Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Habilitar intèrpret"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Exportar propietats"
-	},
-	"exportPropertiesDescription": {
-		"message": "Guardar les propietats de Web Clipper en un fitxer $strong_start$types.json$strong_end$ que pot ser importat a la cambra cuirassada d'Obsidian o a Web Clipper en altres dispositius.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Guardar contingut web en un format privat i durador al qual pot accedir sense connexió. L'extensió oficial per a Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Error en copiar el text"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Gràcies pels teus comentaris"
-	},
-	"folder": {
-		"message": "Carpeta"
 	},
 	"general": {
 		"message": "General"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importar propietats"
 	},
-	"importPropertiesDescription": {
-		"message": "Per importar les seves propietats d’Obsidian, localitzi el fitxer $strong_1_start$types.json$strong_1_end$ a la carpeta $strong_2_start$.obsidian$strong_2_end$ dins de la seva cambra cuirassada. Tingui en compte que aquesta carpeta està oculta per defecte a la majoria dels sistemes operatius.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importar configuracions"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Mode heretat"
-	},
-	"legacyModeDescription": {
-		"message": "Utilitzi el mètode de retall d'URI compatible amb Obsidian 1.6.7 o anterior. Tingui en compte que la longitud del contingut que pot guardar està limitada pel seu navegador i el seu sistema operatiu. Algunes pàgines poden fallar sense mostrar errors."
 	},
 	"loadArticle": {
 		"message": "Llegeix l'article"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "No s’han trobat propietats no utilitzades."
 	},
-	"noteContent": {
-		"message": "Contingut de la nota"
-	},
-	"noteContentDescription": {
-		"message": "Personalitzi el contingut de la nota. Faci servir variables per emplenar prèviament les dades de la pàgina."
-	},
-	"noteLocation": {
-		"message": "Ubicació de la nota"
-	},
-	"noteLocationDescription": {
-		"message": "La carpeta o el camí de la nota."
-	},
-	"noteName": {
-		"message": "Nom de la nota"
-	},
-	"noteNameFormat": {
-		"message": "Format del nom de la nota"
-	},
-	"noteNameFormatDescription": {
-		"message": "Format per al nombre del fitxer de la nota. Pot usar variables com {{title}}, {{date}} i {{published}} per emplenar prèviament dades de la pàgina. $link_start$Més informació$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Notes sobre aquesta pàgina..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "O enganxi el contingut a continuació"
 	},
-	"overwriteNote": {
-		"message": "Sobreescriu la nota"
-	},
 	"pageCannotBeClipped": {
 		"message": "Aquesta pàgina no es pot guardar."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Finestra emergent"
-	},
-	"prependToDaily": {
-		"message": "Agregar a la nota diària, al principi"
-	},
-	"prependToExisting": {
-		"message": "Agregar a una nota existent, al principi"
 	},
 	"preview": {
 		"message": "Previsualització"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Eliminar totes les propietats que no s'usen a cap plantilla."
 	},
-	"removeVault": {
-		"message": "Eliminar la cambra cuirassada"
-	},
 	"replaceContent": {
 		"message": "Reemplaçar el contingut de la pàgina"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Mostrar variables de pàgina"
 	},
-	"silentOpen": {
-		"message": "Guardar nota sense obrir-la"
-	},
-	"silentOpenDescription": {
-		"message": "Les notes retallades es guardaran, però no s'obriran en una nova pestanya. Obsidian encara es posarà en primer pla."
-	},
 	"sort": {
 		"message": "Ordena"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "De la Z a l'A"
-	},
-	"specificNoteName": {
-		"message": "Nom específic de la nota"
 	},
 	"systemDefault": {
 		"message": "Sistema"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Propietats"
 	},
-	"templatePropertiesDescription": {
-		"message": "Propietats para agregar a la part superior de la nota guardada. Usi variables per emplenar prèviament dades de la pàgina."
-	},
 	"templateTriggers": {
 		"message": "Activadors de plantilla"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Està usant la darrera versió."
-	},
-	"vault": {
-		"message": "Cambra cuirassada"
-	},
-	"vaultDescription": {
-		"message": "Seleccioni la cambra cuirassada predeterminada per a aquesta plantilla. Vagi a $link_start$configuració general$link_end$ per agregar o eliminar cambres cuirassades.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Cambres cuirassades"
-	},
-	"vaultsDescription": {
-		"message": "Per defecte, les notes es guarden a la cambra cuirassada oberta actualment. Pot afegir cambres cuirassades aquí si vol l'opció de guardar a diferents cambres cuirassades. Els noms de les cambres cuirassades han de coincidir exactament amb el nom de la cambra cuirassada d'Obsidian. Pressioni $strong_start$enter$strong_end$ per afegir una cambra cuirassada.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versió"

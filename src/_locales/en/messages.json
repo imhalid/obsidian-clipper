@@ -21,7 +21,7 @@
 		"message": "Add to Thymer"
 	},
 	"addVaultPlaceholder": {
-		"message": "Press enter to add a vault"
+		"message": "Press enter to add a workspace"
 	},
 	"advanced": {
 		"message": "Advanced"
@@ -45,13 +45,13 @@
 		"message": "No API key"
 	},
 	"apiKeysWarning": {
-		"message": "By using an external provider you agree to their terms and privacy policy. Interpreter requests are sent directly to the provider you choose. Obsidian does not gather or store any data about your requests."
+		"message": "By using an external provider you agree to their terms and privacy policy. Interpreter requests are sent directly to the provider you choose. Thymer Web Clipper does not gather or store any data about your requests."
 	},
 	"appendToDaily": {
-		"message": "Add to daily note, at the bottom"
+		"message": "Add to today's journal page, at the bottom"
 	},
 	"appendToExisting": {
-		"message": "Add to an existing note, at the bottom"
+		"message": "Add to an existing page, at the bottom"
 	},
 	"autoRunInterpreter": {
 		"message": "Automatically run"
@@ -96,7 +96,7 @@
 		"message": "Clip behavior"
 	},
 	"clipBehaviorDescription": {
-		"message": "Choose how highlighted content is saved to Obsidian. Defines the $strong_start${{content}}$strong_end$ variable.",
+		"message": "Choose how highlighted content is saved to Thymer. Defines the $strong_start${{content}}$strong_end$ variable.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -107,7 +107,7 @@
 		}
 	},
 	"clipboardError": {
-		"message": "Obsidian is not able to access your clipboard. Try the troubleshooting instructions here: $1",
+		"message": "Could not access your clipboard. Try the troubleshooting instructions here: $1",
 		"placeholders": {
 			"1": {
 				"content": "$1"
@@ -118,7 +118,7 @@
 		"message": "Close"
 	},
 	"commandOpenClipper": {
-		"message": "Open Obsidian Clipper"
+		"message": "Open Thymer Web Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Quick clip"
@@ -145,13 +145,13 @@
 		"message": "Copy to clipboard"
 	},
 	"createNewNote": {
-		"message": "Create new note"
+		"message": "Create new page"
 	},
 	"custom": {
 		"message": "Custom"
 	},
 	"dailyNoteFormat": {
-		"message": "Daily note format (e.g., YYYY-MM-DD)"
+		"message": "Today's journal page"
 	},
 	"defaultInterpreterContext": {
 		"message": "Default interpreter context"
@@ -196,7 +196,7 @@
 		"message": "Duplicate"
 	},
 	"earlyAccessDescription": {
-		"message": "Use features that require the latest $link_start$early access version$link_end$ of Obsidian. Currently requires Obsidian 1.7.2 or later.",
+		"message": "Not used by Thymer Web Clipper.",
 		"placeholders": {
 			"link_end": {
 				"content": "</a>"
@@ -225,7 +225,7 @@
 		"message": "Embedded"
 	},
 	"enableHighlighterDescription": {
-		"message": "Highlight content on web pages that you can save to Obsidian."
+		"message": "Highlight content on web pages that you can save to Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Enable interpreter"
@@ -272,7 +272,7 @@
 		"message": "Export properties"
 	},
 	"exportPropertiesDescription": {
-		"message": "Save Web Clipper properties to a $strong_start$types.json$strong_end$ file that can be imported into your Obsidian vault, or into Web Clipper on other devices.",
+		"message": "Save Web Clipper properties to a $strong_start$types.json$strong_end$ file that you can import into Web Clipper on other devices.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -283,10 +283,10 @@
 		}
 	},
 	"extensionDescription": {
-		"message": "Save content from the web in a private and durable format that you can access offline. The official browser extension for Obsidian."
+		"message": "Save and highlight web pages in Thymer. An unofficial web clipper for Thymer, based on Obsidian Web Clipper."
 	},
 	"extensionName": {
-		"message": "Obsidian Web Clipper"
+		"message": "Thymer Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Failed to copy text"
@@ -343,7 +343,7 @@
 		"message": "Thanks for your feedback"
 	},
 	"folder": {
-		"message": "Folder"
+		"message": "Collection"
 	},
 	"general": {
 		"message": "General"
@@ -423,7 +423,7 @@
 		"message": "Import properties"
 	},
 	"importPropertiesDescription": {
-		"message": "To import your properties from Obsidian, locate the $strong_1_start$types.json$strong_1_end$ file in the $strong_2_start$.obsidian$strong_2_end$ folder within your vault. Note this folder is hidden by default on most operating systems.",
+		"message": "Import properties from a $strong_1_start$types.json$strong_1_end$ file exported from Web Clipper. The one in the $strong_2_start$.obsidian$strong_2_end$ folder of an Obsidian vault works too.",
 		"placeholders": {
 			"strong_1_end": {
 				"content": "</strong>"
@@ -481,7 +481,7 @@
 		"message": "Legacy mode"
 	},
 	"legacyModeDescription": {
-		"message": "Uses the URI clipping method compatible with Obsidian 1.6.7 or earlier. Note that the length of the content you can clip is limited by your browser and OS. Some pages may fail without any errors."
+		"message": "Not used by Thymer Web Clipper."
 	},
 	"loadArticle": {
 		"message": "Read article"
@@ -532,25 +532,25 @@
 		"message": "No unused properties found."
 	},
 	"noteContent": {
-		"message": "Note content"
+		"message": "Page content"
 	},
 	"noteContentDescription": {
-		"message": "Customize the content of the note. Use variables to pre-populate data from the page."
+		"message": "Customize the content of the page. Use variables to pre-populate data from the page."
 	},
 	"noteLocation": {
-		"message": "Note location"
+		"message": "Collection"
 	},
 	"noteLocationDescription": {
-		"message": "The folder or path of the note."
+		"message": "The Thymer collection the page is saved in. It is created when it does not exist."
 	},
 	"noteName": {
-		"message": "Note name"
+		"message": "Page title"
 	},
 	"noteNameFormat": {
-		"message": "Note name"
+		"message": "Page title"
 	},
 	"noteNameFormatDescription": {
-		"message": "Format for the file name of the note. You can use variables like {{title}}, {{date}}, and {{published}} to pre-populate data from the page. $link_start$Learn more$link_end$.",
+		"message": "Format for the title of the page. You can use variables like {{title}}, {{date}}, and {{published}} to pre-populate data from the page. $link_start$Learn more$link_end$.",
 		"placeholders": {
 			"link_end": {
 				"content": "</a>"
@@ -594,7 +594,7 @@
 		"message": "Or paste content below"
 	},
 	"overwriteNote": {
-		"message": "Overwrite note"
+		"message": "Overwrite page"
 	},
 	"pageCannotBeClipped": {
 		"message": "This page cannot be clipped."
@@ -630,10 +630,10 @@
 		"message": "Popup"
 	},
 	"prependToDaily": {
-		"message": "Add to daily note, at the top"
+		"message": "Add to today's journal page, at the top"
 	},
 	"prependToExisting": {
-		"message": "Add to an existing note, at the top"
+		"message": "Add to an existing page, at the top"
 	},
 	"preview": {
 		"message": "Preview"
@@ -891,7 +891,7 @@
 		"message": "Remove all properties that are not used in any template."
 	},
 	"removeVault": {
-		"message": "Remove vault"
+		"message": "Remove workspace"
 	},
 	"replaceContent": {
 		"message": "Replace the page content"
@@ -984,10 +984,10 @@
 		"message": "Show page variables"
 	},
 	"silentOpen": {
-		"message": "Save clipped note without opening it"
+		"message": "Save clipped page without opening it"
 	},
 	"silentOpenDescription": {
-		"message": "Clipped notes will be saved but will not open as a new tab. Obsidian will still be brought to the foreground."
+		"message": "Clipped pages are saved in Thymer but not opened there."
 	},
 	"sort": {
 		"message": "Sort"
@@ -1005,7 +1005,7 @@
 		"message": "Z to A"
 	},
 	"specificNoteName": {
-		"message": "Specific note name"
+		"message": "Specific page title"
 	},
 	"systemDefault": {
 		"message": "System"
@@ -1038,7 +1038,7 @@
 		"message": "Properties"
 	},
 	"templatePropertiesDescription": {
-		"message": "Properties to add to the top of the clipped note. Use variables to pre-populate data from the page."
+		"message": "Properties to add to the clipped page. Use variables to pre-populate data from the page."
 	},
 	"templateTriggers": {
 		"message": "Template triggers"
@@ -1065,10 +1065,10 @@
 		"message": "You are using the latest version."
 	},
 	"vault": {
-		"message": "Vault"
+		"message": "Workspace"
 	},
 	"vaultDescription": {
-		"message": "Select the default vault for this template. Go to $link_start$general settings$link_end$ to add or remove vaults.",
+		"message": "Select the default Thymer workspace for this template. Go to $link_start$general settings$link_end$ to add or remove workspaces.",
 		"placeholders": {
 			"link_end": {
 				"content": "</a>"
@@ -1079,10 +1079,10 @@
 		}
 	},
 	"vaults": {
-		"message": "Vaults"
+		"message": "Workspaces"
 	},
 	"vaultsDescription": {
-		"message": "By default, clipped notes are saved to the currently open vault. You can add vaults here if you want the option to save to different vaults. Vault names must exactly match the name of the Obsidian vault. Press $strong_start$enter$strong_end$ to add a vault.",
+		"message": "By default, clips are saved to the workspace that is open in Thymer. Add workspaces here to choose between them when clipping. Names must match the workspace names in Thymer. Press $strong_start$enter$strong_end$ to add a workspace.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"

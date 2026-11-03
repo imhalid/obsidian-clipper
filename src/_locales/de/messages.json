@@ -18,10 +18,7 @@
 		"message": "Anbieter hinzufügen"
 	},
 	"addToObsidian": {
-		"message": "Zu Obsidian hinzufügen"
-	},
-	"addVaultPlaceholder": {
-		"message": "Drücke Enter, um einen Vault hinzuzufügen"
+		"message": "Zu Thymer hinzufügen"
 	},
 	"advanced": {
 		"message": "Erweitert"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Kein API-Schlüssel"
-	},
-	"apiKeysWarning": {
-		"message": "Durch die Nutzung eines externen Anbieters stimmst du dessen Nutzungsbedingungen und Datenschutzrichtlinien zu. Interpreter-Anfragen werden direkt an den von Dir gewählten Anbieter gesendet. Obsidian sammelt und speichert keine Daten über Deine Anfragen."
-	},
-	"appendToDaily": {
-		"message": "Zum Ende der Tagesnotiz hinzufügen"
-	},
-	"appendToExisting": {
-		"message": "Zum Ende einer bestehenden Notiz hinzufügen"
 	},
 	"autoRunInterpreter": {
 		"message": "Automatisch ausführen"
@@ -96,7 +84,7 @@
 		"message": "Speicherverhalten"
 	},
 	"clipBehaviorDescription": {
-		"message": "Wähle wie markierter Inhalt in Obsidian gespeichert wird. Definiert die $strong_start${{content}}$strong_end$ Variable.",
+		"message": "Wähle wie markierter Inhalt in Thymer gespeichert wird. Definiert die $strong_start${{content}}$strong_end$ Variable.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian kann nicht auf deine Zwischenablage zugreifen. Probiere die Anweisungen zur Fehlerbehebung hier: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Schließen"
-	},
-	"commandOpenClipper": {
-		"message": "Obsidian Web-Clipper öffnen"
 	},
 	"commandQuickClip": {
 		"message": "Schnelles Ausschneiden"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "In die Zwischenablage kopieren"
 	},
-	"createNewNote": {
-		"message": "Neue Notiz erstellen"
-	},
 	"custom": {
 		"message": "Benutzerdefiniert"
-	},
-	"dailyNoteFormat": {
-		"message": "Tagesnotiz-Format (z.B. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Standard-Interpreter-Kontext"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplizieren"
 	},
-	"earlyAccessDescription": {
-		"message": "Verwende Funktionen, welche die neueste $link_start$Early Access Version$link_end$ von Obsidian erfordern. Erfordert derzeit Obsidian 1.7.2 oder höher.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Early Access Funktionen"
 	},
@@ -225,7 +185,7 @@
 		"message": "Eingebettet"
 	},
 	"enableHighlighterDescription": {
-		"message": "Hebe Inhalte auf Webseiten hervor, die Du in Obsidian speichern möchtest."
+		"message": "Hebe Inhalte auf Webseiten hervor, die Du in Thymer speichern möchtest."
 	},
 	"enableInterpreter": {
 		"message": "Interpreter aktivieren"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Eigenschaften exportieren"
-	},
-	"exportPropertiesDescription": {
-		"message": "Speichert Deine Web-Clipper Eigenschaften in einer $strong_start$types.json$strong_end$ Datei, die in Deinem Obsidian-Vault oder in Web-Clipper auf anderen Geräten importiert werden kann.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Speichet Deine Webinhalte in einem privaten und dauerhaften Format, auf das Du offline zugreifen kannst. Die offizielle Browser-Erweiterung für Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web-Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Text konnte nicht kopiert werden"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Vielen Dank für Ihr Feedback"
-	},
-	"folder": {
-		"message": "Ordner"
 	},
 	"general": {
 		"message": "Allgemein"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Eigenschaften importieren"
 	},
-	"importPropertiesDescription": {
-		"message": "Um Deine Eigenschaften aus Obsidian zu importieren, suche die $strong_1_start$types.json$strong_1_end$ Datei im $strong_2_start$.obsidian$strong_2_end$ Ordner in Deinem Vault. Beachte, dass dieser Ordner standardmäßig auf den meisten Betriebssystemen versteckt ist.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Einstellungen importieren"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Legacy-Modus"
-	},
-	"legacyModeDescription": {
-		"message": "Verwendet die URI-Ausschneidemethode, die mit Obsidian 1.6.7 oder älter kompatibel ist. Beachte, dass die Länge des Inhalts, den Du ausschneiden kannst, durch Deinen Browser und das Betriebssystem begrenzt ist. Einige Seiten können ohne Fehlermeldungen fehlschlagen."
 	},
 	"loadArticle": {
 		"message": "Artikel lesen"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Keine unbenutzten Eigenschaften gefunden."
 	},
-	"noteContent": {
-		"message": "Notizinhalt"
-	},
-	"noteContentDescription": {
-		"message": "Passe den Inhalt der Notiz an. Verwende Variablen, um Daten von der Seite vorab auszufüllen."
-	},
-	"noteLocation": {
-		"message": "Notizspeicherort"
-	},
-	"noteLocationDescription": {
-		"message": "Der Ordner oder Pfad der Notiz."
-	},
-	"noteName": {
-		"message": "Notizname"
-	},
-	"noteNameFormat": {
-		"message": "Notizname"
-	},
-	"noteNameFormatDescription": {
-		"message": "Format für den Dateinamen der Notiz. Du kannst Variablen wie {{title}}, {{date}} und {{published}} verwenden, um Daten von der Seite vorab auszufüllen. $link_start$Mehr erfahren$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Notizen zu dieser Seite..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Oder füge den Inhalt unten ein"
 	},
-	"overwriteNote": {
-		"message": "Notiz überschreiben"
-	},
 	"pageCannotBeClipped": {
 		"message": "Diese Seite kann nicht ausgeschnitten werden."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Zur Tagesnotiz am Anfang hinzufügen"
-	},
-	"prependToExisting": {
-		"message": "Zu bestehender Notiz am Anfang hinzufügen"
 	},
 	"preview": {
 		"message": "Vorschau"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Entferne alle Eigenschaften, die in keiner Vorlage verwendet werden."
 	},
-	"removeVault": {
-		"message": "Vault entfernen"
-	},
 	"replaceContent": {
 		"message": "Seiteninhalt ersetzen"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Seitenvariablen anzeigen"
 	},
-	"silentOpen": {
-		"message": "Ausgeschnittene Notiz ohne öffnen speichern"
-	},
-	"silentOpenDescription": {
-		"message": "Ausgeschnittene Notizen werden gespeichert, aber nicht in einem neuen Tab geöffnet. Obsidian wird trotzdem in den Vordergrund gebracht."
-	},
 	"sort": {
 		"message": "Sortieren"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z bis A"
-	},
-	"specificNoteName": {
-		"message": "Spezifischer Notizname"
 	},
 	"systemDefault": {
 		"message": "System"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Eigenschaften"
 	},
-	"templatePropertiesDescription": {
-		"message": "Eigenschaften, die oben zur ausgeschnittenen Notiz hinzugefügt werden sollen. Verwende Variablen, um Daten von der Seite vorab auszufüllen."
-	},
 	"templateTriggers": {
 		"message": "Vorlagen-Trigger"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Du verwendest die neueste Version."
-	},
-	"vault": {
-		"message": "Vault"
-	},
-	"vaultDescription": {
-		"message": "Wähle den Standard-Vault für diese Vorlage aus. Gehen zu $link_start$allgemeinen Einstellungen$link_end$, um Vaults hinzuzufügen oder zu entfernen.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Vaults"
-	},
-	"vaultsDescription": {
-		"message": "Standardmäßig werden ausgeschnittene Notizen im aktuell geöffneten Vault gespeichert. Du kannst hier Vaults hinzufügen, wenn Du die Option haben möchtest, in verschiedenen Vaults zu speichern. Vaultnamen müssen exakt mit dem Namen des Obsidian-Vaults übereinstimmen. Drücke $strong_start$Enter$strong_end$, um einen Vault hinzuzufügen.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Version"

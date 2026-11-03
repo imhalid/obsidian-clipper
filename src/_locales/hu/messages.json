@@ -18,10 +18,7 @@
 		"message": "Szolgáltató hozzáadása"
 	},
 	"addToObsidian": {
-		"message": "Hozzáadás az Obsidianhoz"
-	},
-	"addVaultPlaceholder": {
-		"message": "Nyomd meg az Entert egy vault hozzáadásához"
+		"message": "Hozzáadás az Thymerhoz"
 	},
 	"advanced": {
 		"message": "Speciális"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Nincs API-kulcs"
-	},
-	"apiKeysWarning": {
-		"message": "Külső szolgáltató használatával elfogadod annak feltételeit és adatvédelmi irányelveit. Az interpreter kérései közvetlenül a választott szolgáltatóhoz kerülnek elküldésre. Az Obsidian nem gyűjt és nem tárol semmilyen adatot a kéréseidről."
-	},
-	"appendToDaily": {
-		"message": "Hozzáadás a napi jegyzethez, alul"
-	},
-	"appendToExisting": {
-		"message": "Hozzáadás egy meglévő jegyzethez, alul"
 	},
 	"autoRunInterpreter": {
 		"message": "Automatikus futtatás"
@@ -96,7 +84,7 @@
 		"message": "Klip viselkedése"
 	},
 	"clipBehaviorDescription": {
-		"message": "Válaszd ki, hogyan legyen a kiemelt tartalom mentve az Obsidianba. Meghatározza a $strong_start${{content}}$strong_end$ változót.",
+		"message": "Válaszd ki, hogyan legyen a kiemelt tartalom mentve az Thymerba. Meghatározza a $strong_start${{content}}$strong_end$ változót.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Az Obsidian nem tud hozzáférni a vágólapodhoz. Próbáld ki az itt található hibaelhárítási útmutatót: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Bezárás"
-	},
-	"commandOpenClipper": {
-		"message": "Obsidian Clipper megnyitása"
 	},
 	"commandQuickClip": {
 		"message": "Gyors klip"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Másolás a vágólapra"
 	},
-	"createNewNote": {
-		"message": "Új jegyzet létrehozása"
-	},
 	"custom": {
 		"message": "Egyéni"
-	},
-	"dailyNoteFormat": {
-		"message": "Napi jegyzet formátuma (pl. YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Alapértelmezett interpreter kontextus"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplikálás"
 	},
-	"earlyAccessDescription": {
-		"message": "Használd azokat a funkciókat, amelyekhez az Obsidian legfrissebb $link_start$korai hozzáférésű verziója$link_end$ szükséges. Jelenleg az Obsidian 1.7.2 vagy újabb verziója szükséges.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Korai hozzáférésű funkciók"
 	},
@@ -225,7 +185,7 @@
 		"message": "Beágyazott"
 	},
 	"enableHighlighterDescription": {
-		"message": "Kiemelheted a weboldalakon a tartalmat, amit elmenthetsz az Obsidianba."
+		"message": "Kiemelheted a weboldalakon a tartalmat, amit elmenthetsz az Thymerba."
 	},
 	"enableInterpreter": {
 		"message": "Interpreter engedélyezése"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Tulajdonságok exportálása"
-	},
-	"exportPropertiesDescription": {
-		"message": "A Web Clipper tulajdonságainak mentése egy $strong_start$types.json$strong_end$ fájlba, amely importálható az Obsidian vaultodba, vagy a Web Clipperbe más eszközökön.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Ments tartalmat a webről privát és tartós formátumban, amelyet offline is elérhetsz. Az Obsidian hivatalos böngészőbővítménye."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Nem sikerült a szöveg másolása"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Köszönjük a visszajelzésed"
-	},
-	"folder": {
-		"message": "Mappa"
 	},
 	"general": {
 		"message": "Általános"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Tulajdonságok importálása"
 	},
-	"importPropertiesDescription": {
-		"message": "A tulajdonságaid Obsidianból történő importálásához keresd meg a $strong_1_start$types.json$strong_1_end$ fájlt a vaultodon belüli $strong_2_start$.obsidian$strong_2_end$ mappában. Vedd figyelembe, hogy ez a mappa a legtöbb operációs rendszeren alapértelmezetten rejtett.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Beállítások importálása"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Örökölt mód"
-	},
-	"legacyModeDescription": {
-		"message": "Az Obsidian 1.6.7-es vagy korábbi verziójával kompatibilis URI-alapú klipelési módszert használja. Vedd figyelembe, hogy a klipelhető tartalom hossza a böngésződ és az operációs rendszered korlátaitól függ. Egyes oldalak hibajelzés nélkül is meghiúsulhatnak."
 	},
 	"loadArticle": {
 		"message": "Cikk olvasása"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Nem találhatók nem használt tulajdonságok."
 	},
-	"noteContent": {
-		"message": "Jegyzet tartalma"
-	},
-	"noteContentDescription": {
-		"message": "A jegyzet tartalmának testreszabása. Használj változókat az oldal adataival való előkitöltéshez."
-	},
-	"noteLocation": {
-		"message": "Jegyzet helye"
-	},
-	"noteLocationDescription": {
-		"message": "A jegyzet mappája vagy elérési útja."
-	},
-	"noteName": {
-		"message": "Jegyzet neve"
-	},
-	"noteNameFormat": {
-		"message": "Jegyzet neve"
-	},
-	"noteNameFormatDescription": {
-		"message": "A jegyzet fájlnevének formátuma. Használhatsz olyan változókat, mint a {{title}}, {{date}} és {{published}}, hogy az oldal adataival előre kitöltsd. $link_start$További információ$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Jegyzetek erről az oldalról..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Vagy illeszd be a tartalmat alább"
 	},
-	"overwriteNote": {
-		"message": "Jegyzet felülírása"
-	},
 	"pageCannotBeClipped": {
 		"message": "Ez az oldal nem klipelhető."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Felugró ablak"
-	},
-	"prependToDaily": {
-		"message": "Hozzáadás a napi jegyzethez, felül"
-	},
-	"prependToExisting": {
-		"message": "Hozzáadás egy meglévő jegyzethez, felül"
 	},
 	"preview": {
 		"message": "Előnézet"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Az összes olyan tulajdonság eltávolítása, amelyet egyetlen sablon sem használ."
 	},
-	"removeVault": {
-		"message": "Vault eltávolítása"
-	},
 	"replaceContent": {
 		"message": "Az oldal tartalmának lecserélése"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Oldalváltozók megjelenítése"
 	},
-	"silentOpen": {
-		"message": "A klipelt jegyzet mentése megnyitás nélkül"
-	},
-	"silentOpenDescription": {
-		"message": "A klipelt jegyzetek mentésre kerülnek, de nem nyílnak meg új lapon. Az Obsidian továbbra is előtérbe kerül."
-	},
 	"sort": {
 		"message": "Rendezés"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z-től A-ig"
-	},
-	"specificNoteName": {
-		"message": "Megadott jegyzetnév"
 	},
 	"systemDefault": {
 		"message": "Rendszer"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Tulajdonságok"
 	},
-	"templatePropertiesDescription": {
-		"message": "A klipelt jegyzet tetejére hozzáadandó tulajdonságok. Használj változókat az oldal adataival való előkitöltéshez."
-	},
 	"templateTriggers": {
 		"message": "Sablonindítók"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "A legfrissebb verziót használod."
-	},
-	"vault": {
-		"message": "Vault"
-	},
-	"vaultDescription": {
-		"message": "Válaszd ki az alapértelmezett vaultot ehhez a sablonhoz. Vaultok hozzáadásához vagy eltávolításához menj az $link_start$általános beállítások$link_end$hoz.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Vaultok"
-	},
-	"vaultsDescription": {
-		"message": "Alapértelmezés szerint a klipelt jegyzetek az éppen megnyitott vaultba kerülnek mentésre. Itt hozzáadhatsz vaultokat, ha szeretnéd a lehetőséget, hogy különböző vaultokba ments. A vaultneveknek pontosan meg kell egyezniük az Obsidian vault nevével. Vault hozzáadásához nyomd meg az $strong_start$Enter$strong_end$ billentyűt.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Verzió"

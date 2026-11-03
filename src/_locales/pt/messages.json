@@ -18,10 +18,7 @@
 		"message": "Adicionar fornecedor"
 	},
 	"addToObsidian": {
-		"message": "Adicionar ao Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Prima Enter para adicionar um cofre"
+		"message": "Adicionar ao Thymer"
 	},
 	"advanced": {
 		"message": "Avançado"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Sem chave de API"
-	},
-	"apiKeysWarning": {
-		"message": "Ao utilizar um fornecedor externo, concorda com os respetivos termos e política de privacidade. Os pedidos do intérprete são enviados diretamente para o fornecedor que escolher. O Obsidian não recolhe nem armazena quaisquer dados sobre os seus pedidos."
-	},
-	"appendToDaily": {
-		"message": "Adicionar à nota diária, no fim"
-	},
-	"appendToExisting": {
-		"message": "Adicionar a uma nota existente, no fim"
 	},
 	"autoRunInterpreter": {
 		"message": "Executar automaticamente"
@@ -96,7 +84,7 @@
 		"message": "Comportamento do recorte"
 	},
 	"clipBehaviorDescription": {
-		"message": "Escolha como o conteúdo realçado é guardado no Obsidian. Define a variável $strong_start${{content}}$strong_end$.",
+		"message": "Escolha como o conteúdo realçado é guardado no Thymer. Define a variável $strong_start${{content}}$strong_end$.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "O Obsidian não consegue aceder à sua área de transferência. Experimente as instruções de resolução de problemas aqui: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Fechar"
-	},
-	"commandOpenClipper": {
-		"message": "Abrir Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Recorte rápido"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Copiar para a área de transferência"
 	},
-	"createNewNote": {
-		"message": "Criar nova nota"
-	},
 	"custom": {
 		"message": "Personalizado"
-	},
-	"dailyNoteFormat": {
-		"message": "Formato da nota diária (por ex., YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Contexto predefinido do intérprete"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplicar"
 	},
-	"earlyAccessDescription": {
-		"message": "Utilize funcionalidades que requerem a versão $link_start$de acesso antecipado$link_end$ mais recente do Obsidian. Atualmente requer o Obsidian 1.7.2 ou posterior.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Funcionalidades de acesso antecipado"
 	},
@@ -225,7 +185,7 @@
 		"message": "Incorporado"
 	},
 	"enableHighlighterDescription": {
-		"message": "Realce conteúdo em páginas web que pode guardar no Obsidian."
+		"message": "Realce conteúdo em páginas web que pode guardar no Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Ativar intérprete"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Exportar propriedades"
-	},
-	"exportPropertiesDescription": {
-		"message": "Guarde as propriedades do Web Clipper num ficheiro $strong_start$types.json$strong_end$ que pode ser importado para o seu cofre do Obsidian ou para o Web Clipper noutros dispositivos.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Guarde conteúdo da web num formato privado e duradouro ao qual pode aceder offline. A extensão oficial do navegador para o Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Falha ao copiar texto"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Obrigado pelo seu feedback"
-	},
-	"folder": {
-		"message": "Pasta"
 	},
 	"general": {
 		"message": "Geral"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importar propriedades"
 	},
-	"importPropertiesDescription": {
-		"message": "Para importar as suas propriedades do Obsidian, localize o ficheiro $strong_1_start$types.json$strong_1_end$ na pasta $strong_2_start$.obsidian$strong_2_end$ dentro do seu cofre. Note que esta pasta está oculta por predefinição na maioria dos sistemas operativos.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importar definições"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Modo legado"
-	},
-	"legacyModeDescription": {
-		"message": "Utiliza o método de recorte por URI compatível com o Obsidian 1.6.7 ou anterior. Note que o tamanho do conteúdo que pode recortar é limitado pelo seu navegador e sistema operativo. Algumas páginas podem falhar sem qualquer erro."
 	},
 	"loadArticle": {
 		"message": "Ler artigo"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Não foram encontradas propriedades não utilizadas."
 	},
-	"noteContent": {
-		"message": "Conteúdo da nota"
-	},
-	"noteContentDescription": {
-		"message": "Personalize o conteúdo da nota. Use variáveis para pré-preencher dados da página."
-	},
-	"noteLocation": {
-		"message": "Localização da nota"
-	},
-	"noteLocationDescription": {
-		"message": "A pasta ou o caminho da nota."
-	},
-	"noteName": {
-		"message": "Nome da nota"
-	},
-	"noteNameFormat": {
-		"message": "Nome da nota"
-	},
-	"noteNameFormatDescription": {
-		"message": "Formato do nome do ficheiro da nota. Pode usar variáveis como {{title}}, {{date}} e {{published}} para pré-preencher dados da página. $link_start$Saiba mais$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Notas sobre esta página..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Ou cole o conteúdo abaixo"
 	},
-	"overwriteNote": {
-		"message": "Substituir nota"
-	},
 	"pageCannotBeClipped": {
 		"message": "Esta página não pode ser recortada."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Pop-up"
-	},
-	"prependToDaily": {
-		"message": "Adicionar à nota diária, no início"
-	},
-	"prependToExisting": {
-		"message": "Adicionar a uma nota existente, no início"
 	},
 	"preview": {
 		"message": "Pré-visualização"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Remova todas as propriedades que não são usadas em nenhum modelo."
 	},
-	"removeVault": {
-		"message": "Remover cofre"
-	},
 	"replaceContent": {
 		"message": "Substituir o conteúdo da página"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Mostrar variáveis da página"
 	},
-	"silentOpen": {
-		"message": "Guardar a nota recortada sem a abrir"
-	},
-	"silentOpenDescription": {
-		"message": "As notas recortadas serão guardadas, mas não serão abertas como um novo separador. O Obsidian continuará a ser trazido para primeiro plano."
-	},
 	"sort": {
 		"message": "Ordenar"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z a A"
-	},
-	"specificNoteName": {
-		"message": "Nome específico da nota"
 	},
 	"systemDefault": {
 		"message": "Sistema"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Propriedades"
 	},
-	"templatePropertiesDescription": {
-		"message": "Propriedades a adicionar no topo da nota recortada. Use variáveis para pré-preencher dados da página."
-	},
 	"templateTriggers": {
 		"message": "Acionadores do modelo"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Está a usar a versão mais recente."
-	},
-	"vault": {
-		"message": "Cofre"
-	},
-	"vaultDescription": {
-		"message": "Selecione o cofre predefinido para este modelo. Vá a $link_start$definições gerais$link_end$ para adicionar ou remover cofres.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Cofres"
-	},
-	"vaultsDescription": {
-		"message": "Por predefinição, as notas recortadas são guardadas no cofre atualmente aberto. Pode adicionar cofres aqui se quiser a opção de guardar em cofres diferentes. Os nomes dos cofres têm de corresponder exatamente ao nome do cofre do Obsidian. Prima $strong_start$Enter$strong_end$ para adicionar um cofre.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versão"

@@ -18,10 +18,7 @@
 		"message": "Aggiungi fornitore"
 	},
 	"addToObsidian": {
-		"message": "Aggiungi a Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Premi invio per aggiungere un vault"
+		"message": "Aggiungi a Thymer"
 	},
 	"advanced": {
 		"message": "Avanzato"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Nessuna chiave API"
-	},
-	"apiKeysWarning": {
-		"message": "Utilizzando un fornitore esterno, accetti i loro termini e la loro politica sulla privacy. Le richieste dell'interprete vengono inviate direttamente al fornitore che scegli. Obsidian non raccoglie o memorizza alcun dato sulle tue richieste."
-	},
-	"appendToDaily": {
-		"message": "Aggiungi alla nota giornaliera, in fondo"
-	},
-	"appendToExisting": {
-		"message": "Aggiungi a una nota esistente, in fondo"
 	},
 	"autoRunInterpreter": {
 		"message": "Esegui automaticamente"
@@ -96,7 +84,7 @@
 		"message": "Comportamento del clip"
 	},
 	"clipBehaviorDescription": {
-		"message": "Scegli come il contenuto evidenziato viene salvato in Obsidian. Definisce la variabile $strong_start${{content}}$strong_end$.",
+		"message": "Scegli come il contenuto evidenziato viene salvato in Thymer. Definisce la variabile $strong_start${{content}}$strong_end$.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian non riesce ad accedere agli appunti. Prova le istruzioni per la risoluzione dei problemi qui: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Chiudi"
-	},
-	"commandOpenClipper": {
-		"message": "Apri Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Clip veloce"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Copia negli appunti"
 	},
-	"createNewNote": {
-		"message": "Crea nuova nota"
-	},
 	"custom": {
 		"message": "Personalizzato"
-	},
-	"dailyNoteFormat": {
-		"message": "Formato della nota giornaliera (ad es., YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Contesto dell'interprete predefinito"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplica"
 	},
-	"earlyAccessDescription": {
-		"message": "Utilizza funzioni che richiedono l'ultima $link_start$versione di accesso anticipato$link_end$ di Obsidian. Attualmente richiede Obsidian 1.7.2 o successivo.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Funzioni di accesso anticipato"
 	},
@@ -225,7 +185,7 @@
 		"message": "Incorporato"
 	},
 	"enableHighlighterDescription": {
-		"message": "Evidenzia il contenuto sulle pagine web che puoi salvare in Obsidian."
+		"message": "Evidenzia il contenuto sulle pagine web che puoi salvare in Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Abilita interprete"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Esporta proprietà"
-	},
-	"exportPropertiesDescription": {
-		"message": "Salva le proprietà del Web Clipper in un file $strong_start$types.json$strong_end$ che può essere importato nel tuo vault Obsidian, o nel Web Clipper su altri dispositivi.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Salva contenuti dal web in un formato privato e duraturo che puoi accedere offline. L'estensione del browser ufficiale per Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Impossibile copiare il testo"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Grazie per il tuo feedback"
-	},
-	"folder": {
-		"message": "Cartella"
 	},
 	"general": {
 		"message": "Generale"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Importa proprietà"
 	},
-	"importPropertiesDescription": {
-		"message": "Per importare le tue proprietà da Obsidian, individua il file $strong_1_start$types.json$strong_1_end$ nella cartella $strong_2_start$.obsidian$strong_2_end$ all'interno del tuo vault. Nota che questa cartella è nascosta di default sulla maggior parte dei sistemi operativi.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Importa impostazioni"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Modalità legacy"
-	},
-	"legacyModeDescription": {
-		"message": "Utilizza il metodo di clipping URI compatibile con Obsidian 1.6.7 o precedente. Nota che la lunghezza del contenuto che puoi ritagliare è limitata dal tuo browser e dal sistema operativo. Alcune pagine potrebbero fallire senza alcun errore."
 	},
 	"loadArticle": {
 		"message": "Leggi articolo"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Nessuna proprietà inutilizzata trovata."
 	},
-	"noteContent": {
-		"message": "Contenuto della nota"
-	},
-	"noteContentDescription": {
-		"message": "Personalizza il contenuto della nota. Usa le variabili per pre-popolare i dati dalla pagina."
-	},
-	"noteLocation": {
-		"message": "Posizione della nota"
-	},
-	"noteLocationDescription": {
-		"message": "La cartella o il percorso della nota."
-	},
-	"noteName": {
-		"message": "Nome della nota"
-	},
-	"noteNameFormat": {
-		"message": "Formato del nome della nota"
-	},
-	"noteNameFormatDescription": {
-		"message": "Formato per il nome del file della nota. Puoi utilizzare variabili come {{title}}, {{date}}, e {{published}} per pre-popolare i dati dalla pagina. $link_start$Scopri di più$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Note su questa pagina..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "O incolla il contenuto qui sotto"
 	},
-	"overwriteNote": {
-		"message": "Sovrascrivi nota"
-	},
 	"pageCannotBeClipped": {
 		"message": "Questa pagina non può essere ritagliata."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Aggiungi alla nota giornaliera, in cima"
-	},
-	"prependToExisting": {
-		"message": "Aggiungi a una nota esistente, in cima"
 	},
 	"preview": {
 		"message": "Anteprima"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Rimuovi tutte le proprietà che non vengono utilizzate in nessun modello."
 	},
-	"removeVault": {
-		"message": "Rimuovi vault"
-	},
 	"replaceContent": {
 		"message": "Sostituisci il contenuto della pagina"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Mostra variabili della pagina"
 	},
-	"silentOpen": {
-		"message": "Salva la nota ritagliata senza aprirla"
-	},
-	"silentOpenDescription": {
-		"message": "Le note ritagliate verranno salvate ma non si apriranno in una nuova scheda. Obsidian sarà comunque portato in primo piano."
-	},
 	"sort": {
 		"message": "Ordina"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Da Z a A"
-	},
-	"specificNoteName": {
-		"message": "Nome specifico della nota"
 	},
 	"systemDefault": {
 		"message": "Sistema"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Proprietà"
 	},
-	"templatePropertiesDescription": {
-		"message": "Proprietà da aggiungere in cima alla nota ritagliata. Usa le variabili per pre-popolare i dati dalla pagina."
-	},
 	"templateTriggers": {
 		"message": "Trigger del modello"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Stai utilizzando l'ultima versione."
-	},
-	"vault": {
-		"message": "Vault"
-	},
-	"vaultDescription": {
-		"message": "Seleziona il vault predefinito per questo modello. Vai alle $link_start$impostazioni generali$link_end$ per aggiungere o rimuovere vaults.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Vaults"
-	},
-	"vaultsDescription": {
-		"message": "Per impostazione predefinita, le note ritagliate vengono salvate nel vault attualmente aperto. Puoi aggiungere vault qui se desideri avere l'opzione di salvare in vault diversi. I nomi dei vault devono corrispondere esattamente al nome del vault Obsidian. Premi $strong_start$invio$strong_end$ per aggiungere un vault.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versione"

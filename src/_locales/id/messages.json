@@ -18,10 +18,7 @@
 		"message": "Tambah penyedia"
 	},
 	"addToObsidian": {
-		"message": "Tambah ke Obsidian"
-	},
-	"addVaultPlaceholder": {
-		"message": "Tekan enter untuk menambahkan vault"
+		"message": "Tambah ke Thymer"
 	},
 	"advanced": {
 		"message": "Pengaturan Lanjutan"
@@ -43,15 +40,6 @@
 	},
 	"apiKeyMissing": {
 		"message": "Tidak ada kunci API"
-	},
-	"apiKeysWarning": {
-		"message": "Dengan menggunakan penyedia eksternal, Anda menyetujui persyaratan dan kebijakan privasi mereka. Permintaan interpreter dikirim langsung ke penyedia yang Anda pilih. Obsidian tidak mengumpulkan atau menyimpan data apa pun tentang permintaan Anda."
-	},
-	"appendToDaily": {
-		"message": "Tambah ke catatan harian, di bagian akhir"
-	},
-	"appendToExisting": {
-		"message": "Tambah ke catatan yang telah ada, di bagian akhir"
 	},
 	"autoRunInterpreter": {
 		"message": "Jalankan secara otomatis"
@@ -96,7 +84,7 @@
 		"message": "Perilaku klip"
 	},
 	"clipBehaviorDescription": {
-		"message": "Pilih bagaimana penyimpanan konten yang telah disorot ke dalam Obsidian. Mendefinisikan variabel $strong_start${{content}}$strong_end$.",
+		"message": "Pilih bagaimana penyimpanan konten yang telah disorot ke dalam Thymer. Mendefinisikan variabel $strong_start${{content}}$strong_end$.",
 		"placeholders": {
 			"strong_end": {
 				"content": "</strong>"
@@ -106,19 +94,8 @@
 			}
 		}
 	},
-	"clipboardError": {
-		"message": "Obsidian tidak dapat mengakses papan klip Anda. Coba petunjuk pemecahan masalah di sini: $1",
-		"placeholders": {
-			"1": {
-				"content": "$1"
-			}
-		}
-	},
 	"close": {
 		"message": "Tutup"
-	},
-	"commandOpenClipper": {
-		"message": "Buka Obsidian Clipper"
 	},
 	"commandQuickClip": {
 		"message": "Klip cepat"
@@ -144,14 +121,8 @@
 	"copyToClipboard": {
 		"message": "Salin ke clipboard"
 	},
-	"createNewNote": {
-		"message": "Buat catatan baru"
-	},
 	"custom": {
 		"message": "Kustom"
-	},
-	"dailyNoteFormat": {
-		"message": "Format catatan harian (mis., YYYY-MM-DD)"
 	},
 	"defaultInterpreterContext": {
 		"message": "Konteks interpreter default"
@@ -195,17 +166,6 @@
 	"duplicate": {
 		"message": "Duplikat"
 	},
-	"earlyAccessDescription": {
-		"message": "Gunakan fitur yang memerlukan versi $link_start$early access$link_end$ terbaru dari Obsidian. Saat ini memerlukan Obsidian 1.7.2 atau versi lebih baru.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/Obsidian/Early+access+versions\" target=\"_blank\">"
-			}
-		}
-	},
 	"earlyAccessFeatures": {
 		"message": "Fitur early access"
 	},
@@ -225,7 +185,7 @@
 		"message": "Tersemat"
 	},
 	"enableHighlighterDescription": {
-		"message": "Sorot konten di laman web yang dapat disimpan ke Obsidian."
+		"message": "Sorot konten di laman web yang dapat disimpan ke Thymer."
 	},
 	"enableInterpreter": {
 		"message": "Aktifkan interpreter"
@@ -270,23 +230,6 @@
 	},
 	"exportProperties": {
 		"message": "Ekspor properti"
-	},
-	"exportPropertiesDescription": {
-		"message": "Simpan properti Web Clipper ke file $strong_start$types.json$strong_end$ yang dapat diimpor ke dalam vault Obsidian, atau ke Web Clipper di perangkat lain.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
-	},
-	"extensionDescription": {
-		"message": "Simpan konten dari web dalam format yang bersifat privat dan tahan lama dan dapat diakses secara luring. Ekstensi browser resmi untuk Obsidian."
-	},
-	"extensionName": {
-		"message": "Obsidian Web Clipper"
 	},
 	"failedToCopyText": {
 		"message": "Gagal menyalin teks"
@@ -341,9 +284,6 @@
 	},
 	"feedbackTitle": {
 		"message": "Terima kasih atas umpan balik Anda"
-	},
-	"folder": {
-		"message": "Folder"
 	},
 	"general": {
 		"message": "Umum"
@@ -422,23 +362,6 @@
 	"importProperties": {
 		"message": "Impor properti"
 	},
-	"importPropertiesDescription": {
-		"message": "Untuk mengimpor properti dari Obsidian, temukan file $strong_1_start$types.json$strong_1_end$ di folder $strong_2_start$.obsidian$strong_2_end$ dalam vault Anda. Sebagai catatan, dalam pengaturan default folder ini tersembunyi di sebagian besar sistem operasi.",
-		"placeholders": {
-			"strong_1_end": {
-				"content": "</strong>"
-			},
-			"strong_1_start": {
-				"content": "<strong>"
-			},
-			"strong_2_end": {
-				"content": "</strong>"
-			},
-			"strong_2_start": {
-				"content": "<strong>"
-			}
-		}
-	},
 	"importSettings": {
 		"message": "Impor pengaturan"
 	},
@@ -479,9 +402,6 @@
 	},
 	"legacyMode": {
 		"message": "Mode Legacy"
-	},
-	"legacyModeDescription": {
-		"message": "Menggunakan metode klip URI yang kompatibel dengan Obsidian 1.6.7 atau lebih lama. Perhatikan bahwa panjang konten yang dapat Anda klip dibatasi oleh browser dan sistem operasi Anda. Beberapa laman web bisa saja gagal tanpa ada pesan error yang muncul."
 	},
 	"loadArticle": {
 		"message": "Baca artikel"
@@ -531,35 +451,6 @@
 	"noUnusedProperties": {
 		"message": "Tidak ada properti yang tidak digunakan."
 	},
-	"noteContent": {
-		"message": "Isi catatan"
-	},
-	"noteContentDescription": {
-		"message": "Sesuaikan isi catatan. Gunakan variabel untuk menggunakan data yang tersedia dari laman web."
-	},
-	"noteLocation": {
-		"message": "Lokasi catatan"
-	},
-	"noteLocationDescription": {
-		"message": "Folder atau letak catatan."
-	},
-	"noteName": {
-		"message": "Nama catatan"
-	},
-	"noteNameFormat": {
-		"message": "Nama catatan"
-	},
-	"noteNameFormatDescription": {
-		"message": "Format untuk nama file catatan. Anda dapat menggunakan variabel seperti {{title}}, {{date}}, dan {{published}} untuk menggunakan data yang tersedia dari laman web. $link_start$Pelajari lebih lanjut$link_end$.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"https://help.obsidian.md/web-clipper/variables\" target=\"_blank\">"
-			}
-		}
-	},
 	"notesAboutPage": {
 		"message": "Catatan tentang laman web ini..."
 	},
@@ -593,9 +484,6 @@
 	"orPasteBelow": {
 		"message": "Atau tempel konten di bawah ini"
 	},
-	"overwriteNote": {
-		"message": "Timpa catatan"
-	},
 	"pageCannotBeClipped": {
 		"message": "Laman ini tidak dapat diklip."
 	},
@@ -628,12 +516,6 @@
 	},
 	"popup": {
 		"message": "Popup"
-	},
-	"prependToDaily": {
-		"message": "Tambah ke bagian awal catatan harian"
-	},
-	"prependToExisting": {
-		"message": "Tambah ke bagian awal catatan yang telah ada"
 	},
 	"preview": {
 		"message": "Pratinjau"
@@ -890,9 +772,6 @@
 	"removeUnusedPropertiesDescription": {
 		"message": "Hapus semua properti yang tidak digunakan dalam template apapun."
 	},
-	"removeVault": {
-		"message": "Hapus vault"
-	},
 	"replaceContent": {
 		"message": "Ganti konten laman web"
 	},
@@ -983,12 +862,6 @@
 	"showPageVariables": {
 		"message": "Tampilkan variabel laman web"
 	},
-	"silentOpen": {
-		"message": "Simpan catatan yang diklip tanpa membuka catatan"
-	},
-	"silentOpenDescription": {
-		"message": "Catatan yang diklip akan disimpan, tetapi tidak akan dibuka di dalam tab baru. Obsidian tetap akan diangkat ke latar depan."
-	},
 	"sort": {
 		"message": "Urutkan"
 	},
@@ -1003,9 +876,6 @@
 	},
 	"sortZA": {
 		"message": "Z ke A"
-	},
-	"specificNoteName": {
-		"message": "Nama catatan spesifik"
 	},
 	"systemDefault": {
 		"message": "Sistem"
@@ -1037,9 +907,6 @@
 	"templateProperties": {
 		"message": "Properti"
 	},
-	"templatePropertiesDescription": {
-		"message": "Properti yang akan ditambahkan ke bagian atas catatan yang diklip. Gunakan variabel untuk menggunakan data yang tersedia dari laman web."
-	},
 	"templateTriggers": {
 		"message": "Pemicu template"
 	},
@@ -1063,34 +930,6 @@
 	},
 	"usingLatestVersion": {
 		"message": "Anda menggunakan versi terbaru."
-	},
-	"vault": {
-		"message": "Vault"
-	},
-	"vaultDescription": {
-		"message": "Pilih vault default untuk template ini. Pergi ke $link_start$pengaturan umum$link_end$ untuk menambah atau menghapus vault.",
-		"placeholders": {
-			"link_end": {
-				"content": "</a>"
-			},
-			"link_start": {
-				"content": "<a href=\"?section=general\">"
-			}
-		}
-	},
-	"vaults": {
-		"message": "Vault"
-	},
-	"vaultsDescription": {
-		"message": "Secara default, catatan yang diklip akan disimpan ke vault yang sedang dibuka. Anda dapat menambahkan vault di sini jika Anda ingin menambah opsi untuk menyimpan ke vault lain. Nama vault harus sama persis dengan nama vault Obsidian. Tekan $strong_start$enter$strong_end$ untuk menambah vault.",
-		"placeholders": {
-			"strong_end": {
-				"content": "</strong>"
-			},
-			"strong_start": {
-				"content": "<strong>"
-			}
-		}
 	},
 	"version": {
 		"message": "Versi"
