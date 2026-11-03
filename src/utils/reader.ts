@@ -341,7 +341,6 @@ export class Reader {
 		const triggerGroup = doc.createElement('div');
 		triggerGroup.className = 'obsidian-reader-nav';
 		triggerGroup.appendChild(outlineBtn);
-		triggerGroup.appendChild(highlighterBtn);
 		triggerGroup.appendChild(clipButton);
 		triggerGroup.appendChild(trigger);
 		triggerGroup.appendChild(addToObsidianBtn);

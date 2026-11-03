@@ -894,21 +894,6 @@ const debouncedUpdateContextMenu = debounce(async (tabId: number) => {
 					contexts: ["page", "selection"]
 				},
 				{
-					id: isHighlighterMode ? "exit-highlighter" : "enter-highlighter",
-					title: isHighlighterMode ? browser.i18n.getMessage('disableHighlighter') : browser.i18n.getMessage('highlighterOn'),
-					contexts: ["page","image", "video", "audio"]
-				},
-				{
-					id: "highlight-selection",
-					title: "Add to highlights",
-					contexts: ["selection"]
-				},
-				{
-					id: "highlight-element",
-					title: "Add to highlights",
-					contexts: ["image", "video", "audio"]
-				},
-				{
 					id: 'open-embedded',
 					title: browser.i18n.getMessage('openEmbedded'),
 					contexts: ["page", "selection"]

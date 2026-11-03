@@ -1,31 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { HIGHLIGHT_END, HIGHLIGHT_START, convertInline, hasHighlightMarks, toThymerMarkdown, underlineHighlights } from './markdown';
-
-const S = HIGHLIGHT_START;
-const E = HIGHLIGHT_END;
-
-describe('underlineHighlights', () => {
-	test('underlines the marked text and drops the marks', () => {
-		expect(underlineHighlights([{ type: 'text', text: `before ${S}marked${E} after` }])).toEqual([
-			{ type: 'text', text: 'before ' }, { type: 'underline', text: 'marked' }, { type: 'text', text: ' after' },
-		]);
-	});
-
-	test('a highlight may run over bold text and around links and code', () => {
-		const link = { type: 'linkobj', text: { link: 'https://e.com', title: 'e' } };
-		expect(underlineHighlights([
-			{ type: 'text', text: `${S}one ` }, { type: 'bold', text: 'two' }, { type: 'text', text: ' ' },
-			link, { type: 'code', text: 'x' }, { type: 'text', text: `${E} rest` },
-		])).toEqual([
-			{ type: 'underline', text: 'one two ' }, link, { type: 'code', text: 'x' }, { type: 'text', text: ' rest' },
-		]);
-	});
-
-	test('finds the lines that hold marks', () => {
-		expect(hasHighlightMarks([{ type: 'text', text: `a ${S}b${E}` }])).toBe(true);
-		expect(hasHighlightMarks([{ type: 'text', text: 'plain' }, { type: 'linkobj', text: {} }])).toBe(false);
-	});
-});
+import { convertInline, toThymerMarkdown } from './markdown';
 
 describe('toThymerMarkdown', () => {
 	test('keeps what Thymer reads and drops blank lines', () => {
@@ -84,7 +58,7 @@ describe('convertInline', () => {
 	});
 
 	test('highlights, strikethrough, footnotes and wikilinks', () => {
-		expect(convertInline('a ==marked== b')).toBe(`a ${HIGHLIGHT_START}marked${HIGHLIGHT_END} b`);
+		expect(convertInline('a ==marked== b')).toBe('a marked b');
 		expect(convertInline('a ~~gone~~ b')).toBe('a gone b');
 		expect(convertInline('see[^12] and[^note]')).toBe('see¹² and[note]');
 		expect(convertInline('by [[Jane Doe]] and [[Page#Part|alias]]')).toBe('by Jane Doe and alias');

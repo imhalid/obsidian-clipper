@@ -67,13 +67,6 @@
 			},
 			"description": "__MSG_commandOpenClipper__"
 		},
-		"toggle_highlighter": {
-			"suggested_key": {
-				"default": "Alt+Shift+H",
-				"mac": "Alt+Shift+H"
-			},
-			"description": "__MSG_commandToggleHighlighter__"
-		},
 		"toggle_reader": {
 			"suggested_key": {
 				"default": "Alt+Shift+R",

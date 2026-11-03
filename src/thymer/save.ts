@@ -9,7 +9,7 @@
 import dayjs from 'dayjs';
 import { Template } from '../types/types';
 import { ThymerClient, ThymerToolError } from './client';
-import { HIGHLIGHT_START, Segment, hasHighlightMarks, toThymerMarkdown, underlineHighlights } from './markdown';
+import { toThymerMarkdown } from './markdown';
 
 export const DEFAULT_COLLECTION = 'Clips';
 
@@ -340,34 +340,13 @@ export class ThymerSaver {
 		}
 		if (!prepend) {
 			await this.client.call('insert_markdown', { workspace, record, markdown });
-		} else {
-			const placeholder = await this.client.call<{ guid: string }>('create_line_item', { workspace, record, type: 'text' });
-			try {
-				await this.client.call('insert_markdown', { workspace, record, markdown, after: placeholder.guid });
-			} finally {
-				await this.client.call('trash_line_item', { workspace, line_item: placeholder.guid });
-			}
+			return;
 		}
-		if (markdown.includes(HIGHLIGHT_START)) {
-			await this.underline(workspace, record);
-		}
-	}
-
-	/** Turn the highlight marks the Markdown left in the record's lines into underlined text. */
-	private async underline(workspace: string, record: string): Promise<void> {
-		const { items } = await this.client.call<{ items: { guid: string; segments?: Segment[] }[] }>(
-			'get_line_items', { workspace, record });
-		let failed = 0;
-		for (const item of items) {
-			if (!item.segments || !hasHighlightMarks(item.segments)) {
-				continue;
-			}
-			await this.client.call('update_line_item', {
-				workspace, line_item: item.guid, segments: underlineHighlights(item.segments),
-			}).catch(() => failed++);
-		}
-		if (failed) {
-			this.warn(`${failed} highlighted line(s) could not be underlined`);
+		const placeholder = await this.client.call<{ guid: string }>('create_line_item', { workspace, record, type: 'text' });
+		try {
+			await this.client.call('insert_markdown', { workspace, record, markdown, after: placeholder.guid });
+		} finally {
+			await this.client.call('trash_line_item', { workspace, line_item: placeholder.guid });
 		}
 	}
 

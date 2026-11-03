@@ -1,10 +1,14 @@
 // @vitest-environment jsdom
-import { describe, test, expect } from 'vitest';
+import { describe, test, expect, beforeAll } from 'vitest';
 import { processHighlights } from './content-extractor';
 import { TextHighlightData } from './highlighter';
+import { generalSettings } from './storage-utils';
 
-// Default settings already use highlighterEnabled + 'highlight-inline', the
-// behavior these tests exercise.
+// The Thymer clipper keeps the highlighter off, so these tests turn it on for
+// the behavior they exercise ('highlight-inline' is still the default).
+beforeAll(() => {
+	generalSettings.highlighterEnabled = true;
+});
 
 function textHighlight(content: string): TextHighlightData {
 	// xpath is empty so processing goes straight to the content-based path,

@@ -10,7 +10,7 @@ export let generalSettings: Settings = {
 	legacyMode: false,
 	silentOpen: false,
 	openBehavior: 'popup',
-	highlighterEnabled: true,
+	highlighterEnabled: false,
 	alwaysShowHighlights: false,
 	highlightBehavior: 'highlight-inline',
 	showMoreActionsButton: false,
@@ -124,8 +124,8 @@ export async function loadSettings(): Promise<Settings> {
 		legacyMode: false,
 		silentOpen: false,
 		openBehavior: 'popup',
-		highlighterEnabled: true,
-		alwaysShowHighlights: true,
+		highlighterEnabled: false,
+		alwaysShowHighlights: false,
 		highlightBehavior: 'highlight-inline',
 		interpreterModel: '',
 		models: [],
@@ -188,8 +188,9 @@ export async function loadSettings(): Promise<Settings> {
 		openBehavior: typeof data.general_settings?.openBehavior === 'boolean' 
 			? (data.general_settings.openBehavior ? 'embedded' : 'popup') 
 			: (data.general_settings?.openBehavior ?? defaultSettings.openBehavior),
-		highlighterEnabled: data.highlighter_settings?.highlighterEnabled ?? defaultSettings.highlighterEnabled,
-		alwaysShowHighlights: data.highlighter_settings?.alwaysShowHighlights ?? defaultSettings.alwaysShowHighlights,
+		// Thymer can't show highlights, so the highlighter is off for good
+		highlighterEnabled: false,
+		alwaysShowHighlights: false,
 		highlightBehavior: data.highlighter_settings?.highlightBehavior ?? defaultSettings.highlightBehavior,
 		interpreterModel: data.interpreter_settings?.interpreterModel || defaultSettings.interpreterModel,
 		models: sanitizedModels,
