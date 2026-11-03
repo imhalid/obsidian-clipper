@@ -1,7 +1,9 @@
 import dayjs from 'dayjs';
 import { Template, Property, PromptVariable } from '../types/types';
 import { incrementStat, addHistoryEntry, getClipHistory } from '../utils/storage-utils';
-import { generateFrontmatter, saveToObsidian } from '../utils/obsidian-note-creator';
+import { generateFrontmatter } from '../utils/obsidian-note-creator';
+import type { ThymerClip } from '../thymer/save';
+import type { ThymerSaveResponse } from '../thymer/background';
 import { extractPageContent, initializePageContent } from '../utils/content-extractor';
 import { compileTemplate } from '../utils/template-compiler';
 import { initializeIcons, getPropertyTypeIcon } from '../icons/icons';
@@ -605,12 +607,12 @@ async function initializeUI() {
 	}
 }
 
-function showError(messageKey: string): void {
+function showError(messageKey: string, substitutions?: string | string[]): void {
 	const errorMessage = document.querySelector('.error-message') as HTMLElement;
 	const clipper = document.querySelector('.clipper') as HTMLElement;
 
 	if (errorMessage && clipper) {
-		errorMessage.textContent = getMessage(messageKey);
+		errorMessage.textContent = getMessage(messageKey, substitutions);
 		errorMessage.style.display = 'flex';
 		clipper.style.display = 'none';
 
@@ -1338,18 +1340,40 @@ async function handleClipObsidian(): Promise<void> {
 
 		// Gather content
 		const properties = getPropertiesFromDOM();
+		const propertyTypes = new Map(generalSettings.propertyTypes.map(pt => [pt.name, pt.type]));
 
-		const frontmatter = await generateFrontmatter(properties);
-		const fileContent = frontmatter + noteContentField.value;
-
-		// Save to Obsidian
+		// Save to Thymer: the vault is the workspace and the path is the collection
 		const selectedVault = vaultDropdown.value || currentTemplate.vault || '';
 		const isDailyNote = currentTemplate.behavior === 'append-daily' || currentTemplate.behavior === 'prepend-daily';
 		const noteName = isDailyNote ? '' : noteNameField?.value || '';
 		const path = isDailyNote ? '' : pathField?.value || '';
-
-		await saveToObsidian(fileContent, noteName, path, selectedVault, currentTemplate.behavior);
 		const tabInfo = await getCurrentTabInfo();
+
+		const clip: ThymerClip = {
+			title: noteName,
+			collection: path,
+			workspace: selectedVault,
+			behavior: currentTemplate.behavior,
+			properties: properties.map(property => ({
+				name: property.name,
+				value: String(property.value),
+				type: propertyTypes.get(property.name) || 'text',
+			})),
+			content: noteContentField.value,
+			url: tabInfo.url,
+			image: currentVariables['{{image}}'] || '',
+			open: !generalSettings.silentOpen,
+		};
+		const response = await browser.runtime.sendMessage({ action: 'saveToThymer', clip }) as ThymerSaveResponse;
+		if (!response.success) {
+			if (response.queued) {
+				showError('thymerQueued');
+			} else {
+				showError('thymerSaveFailed', response.error);
+			}
+			return;
+		}
+		response.result.warnings.forEach(warning => console.warn('[Thymer]', warning));
 		await incrementStat('addToObsidian', selectedVault, path, tabInfo.url, tabInfo.title);
 
 		lastSelectedVault = selectedVault;

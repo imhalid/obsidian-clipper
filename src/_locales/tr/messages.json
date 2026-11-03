@@ -18,7 +18,7 @@
 		"message": "Sağlayıcı ekle"
 	},
 	"addToObsidian": {
-		"message": "Obsidian'a ekle"
+		"message": "Thymer'a ekle"
 	},
 	"addVaultPlaceholder": {
 		"message": "Kasa eklemek için enter'a basın"
@@ -1094,5 +1094,16 @@
 	},
 	"version": {
 		"message": "Sürüm"
+	},
+	"thymerQueued": {
+		"message": "Thymer açık değil. Kırpma saklandı, Thymer açılınca kaydedilecek."
+	},
+	"thymerSaveFailed": {
+		"message": "Thymer'a kaydedilemedi: $1",
+		"placeholders": {
+			"1": {
+				"content": "$1"
+			}
+		}
 	}
 }

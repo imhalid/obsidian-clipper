@@ -116,13 +116,16 @@ export function createDefaultTemplate(): Template {
 		name: getMessage('defaultTemplateName'),
 		behavior: 'create',
 		noteNameFormat: '{{title}}',
-		path: 'Clippings',
+		// The path is the Thymer collection the clip goes into
+		path: 'Clips',
 		noteContentFormat: '{{content}}',
 		context: "",
 		properties: [
 			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'title', value: '{{title}}' },
 			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'source', value: '{{url}}' },
-			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'author', value: '{{author|split:", "|wikilink|join}}' },
+			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'site', value: '{{site}}' },
+			// Thymer resolves [[...]] only for guids, so authors stay plain names
+			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'author', value: '{{author}}' },
 			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'published', value: '{{published}}' },
 			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'created', value: '{{date}}' },
 			{ id: Date.now().toString() + Math.random().toString(36).slice(2, 11), name: 'description', value: '{{description}}' },

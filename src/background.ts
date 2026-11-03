@@ -7,6 +7,10 @@ import { Settings } from './types/types';
 import { debugLog } from './utils/debug';
 import { incrementStat } from './utils/storage-utils';
 import { hasStoredHighlights } from './utils/url-utils';
+import { initThymerBackground, saveToThymer } from './thymer/background';
+import { ThymerClip } from './thymer/save';
+
+initThymerBackground();
 
 const YOUTUBE_EMBED_RULE_ID = 9001;
 const YOUTUBE_INNERTUBE_RULE_ID = 9002;
@@ -758,6 +762,11 @@ browser.runtime.onMessage.addListener((request: unknown, sender: browser.Runtime
 			} else {
 				sendResponse({ success: false, error: 'Missing URL or tab' });
 			}
+			return true;
+		}
+
+		if (typedRequest.action === "saveToThymer") {
+			saveToThymer((typedRequest as any).clip as ThymerClip).then(sendResponse);
 			return true;
 		}
 
