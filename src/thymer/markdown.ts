@@ -8,7 +8,7 @@
 //
 // - callouts (`> [!note] Title`) and multi-line quotes become `:::` containers
 // - images become links (Thymer can't make image lines from Markdown)
-// - `==highlight==` becomes bold, `~~strike~~` loses its markers
+// - `==highlight==` is marked for underlining (see underlineHighlights), `~~strike~~` loses its markers
 // - `$math$` becomes inline code, `$$` blocks become code blocks
 // - footnote markers become superscript numbers
 // - `[[Name]]` wikilinks become plain text (Thymer only resolves guids)
@@ -25,6 +25,57 @@ const FOOTNOTE_DEF = /^\[\^([^\]]+)\]:\s*(.*)$/;
 const GUID = /^(?:.*\|\s*)?[0-9A-Z]{10,}$/;
 
 const SUPERSCRIPT_DIGITS = '⁰¹²³⁴⁵⁶⁷⁸⁹';
+
+// Thymer has no highlight, and its Markdown import has no underline, though its lines
+// can hold underlined text. So highlights go in between these two private-use
+// characters, which the import keeps as text, and underlineHighlights() turns the
+// marked text of the imported lines into underlined segments.
+export const HIGHLIGHT_START = '';
+export const HIGHLIGHT_END = '';
+const HIGHLIGHT_MARKS = /([])/;
+
+// Segment types that are plain text with a style, so can become underlined
+const TEXT_SEGMENTS = new Set(['text', 'bold', 'italic', 'underline']);
+
+export interface Segment {
+	type: string;
+	text: unknown;
+}
+
+export function hasHighlightMarks(segments: Segment[]): boolean {
+	return segments.some(segment => typeof segment.text === 'string' && HIGHLIGHT_MARKS.test(segment.text));
+}
+
+/** A line's segments with the marked text underlined and the marks gone. */
+export function underlineHighlights(segments: Segment[]): Segment[] {
+	const out: Segment[] = [];
+	const push = (type: string, text: string) => {
+		const last = out[out.length - 1];
+		if (last && last.type === type && typeof last.text === 'string') {
+			last.text += text;
+		} else {
+			out.push({ type, text });
+		}
+	};
+	let inside = false;
+	for (const segment of segments) {
+		if (typeof segment.text !== 'string') {
+			out.push(segment);
+			continue;
+		}
+		for (const piece of segment.text.split(HIGHLIGHT_MARKS)) {
+			if (piece === HIGHLIGHT_START) {
+				inside = true;
+			} else if (piece === HIGHLIGHT_END) {
+				inside = false;
+			} else if (piece) {
+				// Code, links and hashtags keep their own type
+				push(inside && TEXT_SEGMENTS.has(segment.type) ? 'underline' : segment.type, piece);
+			}
+		}
+	}
+	return out;
+}
 
 const CALLOUT_STYLES: Record<string, string> = {
 	warning: 'warning', caution: 'warning', attention: 'warning', danger: 'warning',
@@ -109,7 +160,7 @@ export function convertInline(text: string): string {
 		.replace(/\[!\[([^\]]*)\]\([^)]*\)\]\(([^)]+)\)/g, (_, alt, href) => `[${alt.trim() || 'Link'}](${href})`)
 		.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) =>
 			isEmbedUrl(src) ? `<${src}>` : `[${alt.trim() || 'Image'}](${src})`)
-		.replace(/==(?=\S)(.+?)(?<=\S)==/g, '**$1**')
+		.replace(/==(?=\S)(.+?)(?<=\S)==/g, `${HIGHLIGHT_START}$1${HIGHLIGHT_END}`)
 		.replace(/~~(?=\S)(.+?)(?<=\S)~~/g, '$1')
 		.replace(/\[\^([^\]]+)\]/g, (_, label) => superscript(label))
 		.replace(/\[\[([^\]]+)\]\]/g, (link, inner) => {
